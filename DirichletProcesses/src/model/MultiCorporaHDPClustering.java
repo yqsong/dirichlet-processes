@@ -10,9 +10,6 @@
  */
 package model;
 
-import index.PrepareBankCorpora;
-import index.PrepareEmailCorpora;
-import index.PrepareEmailCorpus;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -816,51 +813,28 @@ public class MultiCorporaHDPClustering{
 	}
 	
 	public static void main(String[] args){
-//		String luceneSrc = "C:\\data_test\\cobra_bank\\text_index\\";
-//		File stopwordFile = new File("C:\\data_test\\cobra_bank\\stopwords.txt");
+		
+
+//		double b0 = 0.5;
+//		double gamma = 10, alpha = 1;
+//		double gamma_a = 2, gamma_b = 1;
+//		double alpha_a = 0.1, alpha_b = 0.1;
 //		
-//		String queryStr = "*:*";
-////			String queryStr = "queryName:AIG";
-////			String queryStr = "queryName:AIG" + " AND docType:news";
-////			String queryStr = "docType:" + "blog";
-////			String queryStr = "docType:" + "news";
-////			String queryStr = "docType:" + "message_board";
-////			String queryStr = "newsgroup:" + categories[0]
-////			    + " OR " + "newsgroup:" + categories[1];
-//			
-//		PrepareBankCorpora	prepareData = new PrepareBankCorpora();
-//			
-//		DocCorpora docCorpora = prepareData.initializeData (luceneSrc, queryStr, true, 0.05, 1, stopwordFile);
-		
-		String luceneSrc = "D:\\data_test\\shixia_email\\text\\";
-		File stopwordFile = new File("D:\\data_test\\shixia_email\\stopwords.txt");
-		
-		String queryStr = "*:*";
+//		int maxIter = 50, burnin = 10;
+//		int initK = 15;
+//		int loglevel = 3;
+//		MultiCorporaHDPClustering hdpCluster = new MultiCorporaHDPClustering(
+//				docCorpora
+//				, b0
+//				, gamma_a, gamma_b
+//				, alpha_a, alpha_b
+////				, gamma, alpha //if sampling hyper, comment this line and uncomment above 2 lines, vice versa
+//				, maxIter
+//				, burnin);
+//		hdpCluster.Initialize(initK);
+//		hdpCluster.setLogLevel(loglevel);
+//		hdpCluster.Sampling();
 
-		PrepareEmailCorpora prepareData = new PrepareEmailCorpora();
-		
-		DocCorpora docCorpora = prepareData.initializeData (luceneSrc, queryStr, true, 1, 1, stopwordFile);
-
-		double b0 = 0.5;
-		double gamma = 10, alpha = 1;
-		double gamma_a = 2, gamma_b = 1;
-		double alpha_a = 0.1, alpha_b = 0.1;
-		
-		int maxIter = 50, burnin = 10;
-		int initK = 15;
-		int loglevel = 3;
-		MultiCorporaHDPClustering hdpCluster = new MultiCorporaHDPClustering(
-				docCorpora
-				, b0
-				, gamma_a, gamma_b
-				, alpha_a, alpha_b
-//				, gamma, alpha //if sampling hyper, comment this line and uncomment above 2 lines, vice versa
-				, maxIter
-				, burnin);
-		hdpCluster.Initialize(initK);
-		hdpCluster.setLogLevel(loglevel);
-		hdpCluster.Sampling();
-		
 	}
 	
 	
