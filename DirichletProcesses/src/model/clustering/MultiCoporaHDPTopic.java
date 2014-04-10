@@ -3,7 +3,7 @@
  * @author Jianwen Zhang (jw-zhang06@mails.tsinghua.edu.cn, jianwenzh@gmail.com)
  * HDP-LDA for multiple text corpora.
  */
-package model;
+package model.clustering;
 
 import java.io.File;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package model;
+package model.clustering;
 
 import index.PrepareCorporaTimeDataForIndex;
 
@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import model.SummarySplitMergeResults;
 import util.RandomSampler;
 import cern.colt.map.OpenIntDoubleHashMap;
 import cern.colt.map.OpenIntIntHashMap;

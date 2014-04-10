@@ -21,7 +21,7 @@ public class SumLogValueTable{
 	 * @param b
 	 * @return
 	 */
-	double getSumLog(int a, int b){
+	public double getSumLog(int a, int b){
 		if(a < 0)
 			System.err.println("SumLogValueTable.java: lower a is negative: a < 0 !");
 		if(b > this.maxN)

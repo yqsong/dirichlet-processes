@@ -14,13 +14,13 @@ public class SummarySplitMergeResults {
 	DocTimeCorpora docTimeCorpora;
 	OpenIntIntHashMap globalClusterSize;
 	
-	SummarySplitMergeResults (DocTimeCorpora docTimeCorpora,
+	public SummarySplitMergeResults (DocTimeCorpora docTimeCorpora,
 								OpenIntIntHashMap globalClusterSize) {
 		this.docTimeCorpora = docTimeCorpora;
 		this.globalClusterSize = globalClusterSize;
 	}
 	
-	String SummarizeTimestampT (int time_t, List<List<Integer>> labels, int topN) {
+	public String SummarizeTimestampT (int time_t, List<List<Integer>> labels, int topN) {
 		String msg = "";
 		msg += this.docTimeCorpora.corporaIndex2Time.get(time_t) + " \n\n" ;
 		OpenIntObjectHashMap clusterTermFreqNew = new OpenIntObjectHashMap();
@@ -65,7 +65,7 @@ public class SummarySplitMergeResults {
 		return msg;
 	}
 	
-	String SummarizeTimestampOutput (int time_t, List<List<List<Integer>>> orgLabels,  List<List<List<Integer>>> updateLabels, int topN) {
+	public String SummarizeTimestampOutput (int time_t, List<List<List<Integer>>> orgLabels,  List<List<List<Integer>>> updateLabels, int topN) {
 		OpenIntObjectHashMap matrix = new OpenIntObjectHashMap();
 		String msg = "Output from ";
 		msg += this.docTimeCorpora.corporaIndex2Time.get(time_t - 1) + " \n\n" ;
@@ -175,7 +175,7 @@ public class SummarySplitMergeResults {
 		return msg;
 	}
 	
-	String SummarizeTimestampInput (int time_t, List<List<Integer>> predictLabels, List<List<Integer>> updateLabels, int topN) {
+	public String SummarizeTimestampInput (int time_t, List<List<Integer>> predictLabels, List<List<Integer>> updateLabels, int topN) {
 		OpenIntObjectHashMap matrix = new OpenIntObjectHashMap();
 		String msg = "Input to ";
 		msg += this.docTimeCorpora.corporaIndex2Time.get(time_t) + " \n\n" ;
