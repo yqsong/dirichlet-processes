@@ -1,0 +1,973 @@
+Year: 2005
+Title: IEEE Symposium on Information Visualization (InfoVis 05)
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532121
+Abstract: The following topics are dealt with: information visualization; trees and graphs; information analytics; multivariate data visualization; and time-varying data visualization
+Keywords: computational geometry;data visualisation;graph visualization;information analytics;information visualization;multivariate data visualization;time-varying data visualization;tree visualization;trees (mathematics);
+Author: null
+
+Year: 2005
+Title: Baby names, visualization, and social data analysis
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532122
+Abstract: The Name Voyager, a Web based visualization of historical trends in baby naming, has proven remarkably popular. This paper discusses the interaction techniques it uses for smooth visual exploration of thousands of time series. We also describe design decisions behind the application and lessons learned in creating an application that makes do-it-yourself data mining popular. The prime lesson, it is hypothesized, is that an information visualization tool may be fruitfully viewed not as a tool but as part of an online social environment. In other words, to design a successful exploratory data analysis tool, one good strategy is to create a system that enables "social" data analysis
+Keywords: Internet;Name Voyager;Web based visualization;baby naming;data analysis;data mining;data mining;data visualisation;exploratory data analysis;historical trends;online social environment;social data analysis;time series;visual exploration;
+Author: Wattenberg, M.
+
+Year: 2005
+Title: A sky dome visualisation for identification of astronomical orientations
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532123
+Abstract: It has long been known that ancient temples were frequently oriented along the cardinal directions or to certain points along the horizon where Sun or Moon rise or set on special days of the year. In the last decades, archaeologists have found evidence of even older building structures buried in the soil, with doorways that also appear to have distinct orientations. This paper presents a novel diagram combining archaeological maps with a folded-apart, flattened view of the whole sky, showing the local horizon and the daily paths of Sun, Moon and brighter stars. By use of this diagram, interesting groupings of astronomical orientation directions, e.g. to certain Sunrise and Sunset points could be identified, which were evidently used to mark certain days of the year. Orientations to a few significant stars very likely indicated the beginning of the agricultural year in the middle neolithic period
+Keywords: archaeological maps;archaeology;astronomical orientation identification;astronomy;building structures;data visualisation;sky dome visualisation;
+Author: Zotti, G.; Groller, M.E.
+
+Year: 2005
+Title: Interactive visualization of genealogical graphs
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532124
+Abstract: The general problem of visualizing "family trees", or genealogical graphs, in 2D, is considered. A graph theoretic analysis is given, which identifies why genealogical graphs can be difficult to draw. This motivates some novel graphical representations, including one based on a dual tree, a subgraph formed by the union of two trees. Dual trees can be drawn in various styles, including an indented outline style, and allow users to browse general multitrees in addition to genealogical graphs, by transitioning between different dual tree views. A software prototype for such browsing is described, that supports smoothly animated transitions, automatic camera framing, rotation of subtrees, and a novel interaction technique for expanding or collapsing subtrees to any depth with a single mouse drag
+Keywords: automatic camera framing;computational geometry;data visualisation;dual tree;family tree visualization;genealogical graph;graph browsing;graph drawing;graph navigation;graph theoretic analysis;graphical representation;interactive visualization;smoothly animated transition;subtrees rotation;trees (mathematics);
+Author: McGuffin, M.J.; Balakrishnan, R.
+
+Year: 2005
+Title: The visual code navigator: an interactive toolset for source code investigation
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532125
+Abstract: We present the Visual Code Navigator, a set of three interrelated visual tools that we developed for exploring large source code software projects from three different perspectives, or views: the syntactic view shows the syntactic constructs in the source code. The symbol view shows the objects a file makes available after compilation, such as function signatures, variables, and namespaces. The evolution view looks at different versions in a project lifetime of a number of selected source files. The views share one code model, which combines hierarchical syntax based and line based information from multiple source files versions. We render this code model using a visual model that extends the pixel-filling, space partitioning properties of shaded cushion treemaps with novel techniques. We discuss how our views allow users to interactively answer complex questions on various code elements by simple mouse clicks. We validate the efficiency and effectiveness of our toolset by an informal user study on the source code of VTK, a large, industry-size C++ code base
+Keywords: Visual Code Navigator;data visualisation;graphical user interfaces;hierarchical syntax;one code model;pixel filling;program visualisation;rendering (computer graphics);shaded cushion treemaps;source code investigation;space partitioning;syntactic view;
+Author: Lommerse, G.; Nossin, F.; Voinea, L.; Telea, A.
+
+Year: 2005
+Title: Vizster: visualizing online social networks
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532126
+Abstract: Recent years have witnessed the dramatic popularity of online social networking services, in which millions of members publicly articulate mutual "friendship" relations. Guided by ethnographic research of these online communities, we have designed and implemented a visualization system for playful end-user exploration and navigation of large scale online social networks. Our design builds upon familiar node link network layouts to contribute customized techniques for exploring connectivity in large graph structures, supporting visual search and analysis, and automatically identifying and visualizing community structures. Both public installation and controlled studies of the system provide evidence of the system's usability, capacity for facilitating discovery, and potential for fun and engaged social activity
+Keywords: Vizster;computational geometry;data mining;data visualisation;large graph structures;node link network layout;online community ethnographic research;online social network visualization;online social networking services;social network exploration;social network navigation;social sciences;visual analysis;visual search;visualization system;
+Author: Heer, J.; Boyd, D.
+
+Year: 2005
+Title: PRISAD: a partitioned rendering infrastructure for scalable accordion drawing
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532127
+Abstract:  We present PRISAD, the first generic rendering infrastructure for information visualization applications that use the accordion drawing technique: rubber sheet navigation with guaranteed visibility for marked areas of interest. Our new rendering algorithms are based on the partitioning of screen space, which allows us to handle dense dataset regions correctly. The algorithms in previous work led to incorrect visual representations because of overculling, and to inefficiencies due to overdrawing multiple items in the same region. Our pixel based drawing infrastructure guarantees correctness by eliminating overculling, and improves rendering performance with tight bounds on overdrawing. PRITree and PRISeq are applications built on PRISAD, with the feature sets of TreeJuxtaposer and SequenceJuxtaposer, respectively. We describe our PRITree and PRISeq dataset traversal algorithms, which are used for efficient rendering, culling, and layout of datasets within the PRISAD framework. We also discuss PRITree node marking techniques, which offer order-of-magnitude improvements to both memory and time performance versus previous range storage and retrieval techniques. Our PRITree implementation features a five fold increase in rendering speed for nontrivial tree structures, and also reduces memory requirements in some real world datasets by up to eight times, so we are able to handle trees of several million nodes. PRISeq renders fifteen times faster and handles datasets twenty times larger than previous work.
+Keywords: PRISAD; PRISeq; PRITree; SequenceJuxtaposer; TreeJuxtaposer; computational geometry; data visualisation; dataset traversal; incorrect visual representation; information visualization; pixel based drawing; progressive rendering; real time rendering; rendering (computer graphics); rendering infrastructure; rubber sheet navigation; scalable accordion drawing;
+Author: Slack, J.; Hildebrand, K.; Munzner, T.
+
+Year: 2005
+Title: Voronoi treemaps
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532128
+Abstract:  Treemaps are a well known method for the visualization of attributed hierarchical data. Previously proposed treemap layout algorithms are limited to rectangular shapes, which cause problems with the aspect ratio of the rectangles as well as with identifying the visualized hierarchical structure. The approach of Voronoi treemaps presented in this paper eliminates these problems through enabling subdivisions of and in polygons. Additionally, this allows for creating treemap visualizations within areas of arbitrary shape, such as triangles and circles, thereby enabling a more flexible adaptation of treemaps for a wider range of applications.
+Keywords: Voronoi treemaps; attributed hierarchical data visualization; computational geometry; data visualisation; flexible treemap adaptation; information visualization; rectangular shapes; treemap layout; treemap visualization; visualized hierarchical structure;
+Author: Balzer, M.; Deussen, O.
+
+Year: 2005
+Title: Elastic hierarchies: combining treemaps and node-link diagrams
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532129
+Abstract:  We investigate the use of elastic hierarchies for representing trees, where a single graphical depiction uses a hybrid mixture, or "interleaving", of more basic forms at different nodes of the tree. In particular, we explore combinations of node link and treemap forms, to combine the space efficiency of treemaps with the structural clarity of node link diagrams. A taxonomy is developed to characterize the design space of such hybrid combinations. A software prototype is described, which we used to explore various techniques for visualizing, browsing and interacting with elastic hierarchies, such as side by side overview and detail views, highlighting and rubber banding across views, visualization of multiple foci, and smooth animations across transitions. The paper concludes with a discussion of the characteristics of elastic hierarchies and suggestions for research on their properties and uses.
+Keywords: computer animation; data visualisation; elastic hierarchy visualization; interactive visualization; multiple foci visualization; node-link diagram; smooth animation; transition animation; tree data structures; tree maps; tree representation;
+Author: Shengdong Zhao; McGuffin, M.J.; Chignell, M.H.
+
+Year: 2005
+Title: Dig-CoLa: directed graph layout through constrained energy minimization
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532130
+Abstract:  We describe a new method for visualization of directed graphs. The method combines constraint programming techniques with a high performance force directed placement (FDP) algorithm so that the directed nature of the graph is highlighted while useful properties of FDP - such as emphasis of symmetries and preservation of proximity relations - are retained. Our algorithm automatically identifies those parts of the digraph that contain hierarchical information and draws them accordingly. Additionally, those parts that do not contain hierarchy are drawn at the same quality expected from a nonhierarchical, undirected layout algorithm. An interesting application of our algorithm is directional multidimensional scaling (DMDS). DMDS deals with low dimensional embedding of multivariate data where we want to emphasize the overall flow in the data (e.g. chronological progress) along one of the axes.
+Keywords: Dig-CoLa; computational geometry; constrained energy minimization; constraint handling; constraint programming; data visualisation; directed graph layout; directed graph visualization; directed graphs; directional multidimensional scaling; force directed placement algorithm; minimisation; nonhierarchical undirected layout algorithm;
+Author: Dwyer, T.; Koren, Y.
+
+Year: 2005
+Title: Dynamic visualization of graphs with extended labels
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532131
+Abstract:  The paper describes a novel technique to visualize graphs with extended node and link labels. The lengths of these labels range from a short phrase to a full sentence to an entire paragraph and beyond. Our solution is different from all the existing approaches that almost always rely on intensive computational effort to optimize the label placement problem. Instead, we share the visualization resources with the graph and present the label information in static, interactive, and dynamic modes without the requirement for tackling the intractability issues. This allows us to reallocate the computational resources for dynamic presentation of real time information. The paper includes a user study to evaluate the effectiveness and efficiency of the visualization technique.
+Keywords: computational resources; data visualisation; dynamic graph visualization; graph label placement; graph theory; information visualization; intractability issues; label placement problem; resource allocation; resource allocation; visualization resources;
+Author: Pak Chung Wong; Mackey, P.; Perrine, K.; Eagan, J.; Foote, H.; Thomas, J.
+
+Year: 2005
+Title: An evaluation of content browsing techniques for hierarchical space-filling visualizations
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532132
+Abstract:  Space-filling visualizations, such as the TreeMap, are well suited for displaying the properties of nodes in hierarchies. To browse the contents of the hierarchy, the primary mode of interaction is by drilling down through many successive layers. In this paper we introduce a distortion algorithm based on fisheye and continuous zooming techniques for browsing data in the TreeMap representation. The motivation behind the distortion approach is for assisting users to rapidly browse information displayed in the TreeMap without opening successive layers of the hierarchy. Two experiments were conducted to evaluate the new approach. In the first experiment (N=20) the distortion approach is compared to the drill down method. Results show that subjects are quicker and more accurate in locating targets of interest using the distortion method. The second experiment (N=12) evaluates the effectiveness of the two approaches in a task requiring context, we define as the context browsing task. The results show that subjects are quicker and more accurate in locating targets with the distortion technique in the context browsing task.
+Keywords: TreeMap representation; content browsing; context browsing task; continuous zooming technique; data visualisation; distortion algorithm; drill down method; fisheye technique; hierarchical space-filling visualization; hierarchy navigation; information browsing; semantic zooming; tree data structures;
+Author: Kang Shi; Pourang Irani; Li, B.
+
+Year: 2005
+Title: Turning the bucket of text into a pipe
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532133
+Abstract:  Many visual analysis tools operate on a fixed set of data. However, professional information analysts follow issues over a period of time and need to be able to easily add new documents to an ongoing exploration. Some analysts handle documents in a moving window of time, with new documents constantly added and old ones aging out. This paper describes both the user interaction and the technical implementation approach for a visual analysis system designed to support constantly evolving text collections.
+Keywords: constantly evolving text collection; data visualisation; document handling; dynamic information visualization; real time updating; text analysis; user interaction design; visual analysis system;
+Author: Hetzler, E.G.; Crow, V.L.; Payne, D.A.; Turner, A.E.
+
+Year: 2005
+Title: Visual correlation for situational awareness
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532134
+Abstract: We present a novel visual correlation paradigm for situational awareness (SA) and suggest its usage in a diverse set of applications that require a high level of SA. Our approach is based on a concise and scalable representation, which leads to a flexible visualization tool that is both clear and intuitive to use. Situational awareness is the continuous extraction of environmental information, its integration with previous knowledge to form a coherent mental picture, and the use of that picture in anticipating future events. In this paper we build on our previous work on visualization for network intrusion detection and show how that approach can be generalized to encompass a much broader class of SA systems. We first propose a generalization that is based on what we term, the w<sup>3</sup> premise, namely that each event must have at least the what, when and where attributes. We also present a second generalization, which increases flexibility and facilitates complex visual correlations. Finally, we demonstrate the generality of our approaches by applying our visualization paradigm in a collection of diverse SA areas.
+Keywords: continuoua environmental information extraction; data visualisation; flexible visualization tool; network intrusion detection; security of data; situational awareness; visual correlation;
+Author: Livnat, Y.; Agutter, J.; Shaun Moon; Foresti, S.
+
+Year: 2005
+Title: Highlighting conflict dynamics in event data
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532135
+Abstract:  We present a method for visual summary of bilateral conflict structures embodied in event data. Such data consists of actors linked by time stamped events, and may be extracted from various sources such as news reports and dossiers. When analyzing political events, it is of particular importance to be able to recognize conflicts and actors involved in them. By projecting actors into a conflict space, we are able to highlight the main opponents in a series of tens of thousands of events, and provide a graphic overview of the conflict structure. Moreover, our method allows for smooth animation of the dynamics of a conflict.
+Keywords: bilateral conflict structure; conflict recognition space; conflict structure graphic overview; data analysis; data visualisation; event data conflict dynamics; information visualization; political event analysis; time dependent visualization; time stamped event; visual summary;
+Author: Brandes, U.; Fleischer, D.; Lerner, J.
+
+Year: 2005
+Title: Low-level components of analytic activity in information visualization
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532136
+Abstract:  Existing system level taxonomies of visualization tasks are geared more towards the design of particular representations than the facilitation of user analytic activity. We present a set of ten low level analysis tasks that largely capture people's activities while employing information visualization tools for understanding data. To help develop these tasks, we collected nearly 200 sample questions from students about how they would analyze five particular data sets from different domains. The questions, while not being totally comprehensive, illustrated the sheer variety of analytic questions typically posed by users when employing information visualization systems. We hope that the presented set of tasks is useful for information visualization system designers as a kind of common substrate to discuss the relative analytic capabilities of the systems. Further, the tasks may provide a form of checklist for system designers.
+Keywords: analytic question; data analysis; data set analysis; data visualisation; information visualization system; information visualization tool; low level analysis task; system level taxonomy; user analytic activity; user interfaces; visualization task;
+Author: Amar, R.; Eagan, J.; Stasko, J.
+
+Year: 2005
+Title: Simple 3D glyphs for spatial multivariate data
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532137
+Abstract:  We present an effort to evaluate the possible utility of a new type of 3D glyphs intended for visualizations of multivariate spatial data. They are based on results from vision research suggesting that our perception of metric 3D structure is distorted and imprecise relative to the actual scene before us (e.g., "metric 3D structure in visualizations" by M. Lind et al. (2003)); only a class of qualitative properties of the scene is perceived with accuracy. These properties are best characterized as being invariant over affine but not Euclidean transformations. They are related, but not identical to, the non-accidental properties (NAPs) described by Lowe in "perceptual organization and visual recognition" (1984) on which the notion of geons is based in "recognition by components - a theory of image understanding" by I. Biederman (1987). A large number of possible 3D glyphs for the visualization of spatial data can be constructed using such properties. One group is based on the local sign of surface curvature. We investigated these properties in a visualization experiment. The results are promising and the implications for visualization are discussed.
+Keywords: 3D glyphs; data visualisation; metric 3D structure perception; multidimensional visualization; multivariate spatial data visualization; vision research; visualization experiment;
+Author: Forsell, C.; Seipel, S.; Lind, M.
+
+Year: 2005
+Title: Revealing structure within clustered parallel coordinates displays
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532138
+Abstract:  In order to gain insight into multivariate data, complex structures must be analysed and understood. Parallel coordinates is an excellent tool for visualizing this type of data but has its limitations. This paper deals with one of its main limitations - how to visualize a large number of data items without hiding the inherent structure they constitute. We solve this problem by constructing clusters and using high precision textures to represent them. We also use transfer functions that operate on the high precision textures in order to highlight different aspects of the cluster characteristics. Providing predefined transfer functions as well as the support to draw customized transfer functions makes it possible to extract different aspects of the data. We also show how feature animation can be used as guidance when simultaneously analysing several clusters. This technique makes it possible to visually represent statistical information about clusters and thus guides the user, making the analysis process more efficient.
+Keywords: cluster analysis process; cluster characteristics; clustered parallel coordinates display; complex structure analysis; computer animation; customized transfer function; data feature extraction; data visualisation; data visualization tool; feature animation; high precision texture; multivariate data; pattern clustering; statistical cluster information;
+Author: Johansson, J.; Ljung, P.; Jern, M.; Cooper, M.
+
+Year: 2005
+Title: Parallel sets: visual analysis of categorical data
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532139
+Abstract:  The discrete nature of categorical data makes it a particular challenge for visualization. Methods that work very well for continuous data are often hardly usable with categorical dimensions. Only few methods deal properly with such data, mostly because of the discrete nature of categorical data, which does not translate well into the continuous domains of space and color. Parallel sets is a new visualization method that adopts the layout of parallel coordinates, but substitutes the individual data points by a frequency based representation. This abstracted view, combined with a set of carefully designed interactions, supports visual data analysis of large and complex data sets. The technique allows efficient work with meta data, which is particularly important when dealing with categorical datasets. By creating new dimensions from existing ones, for example, the user can filter the data according to his or her current needs. We also present the results from an interactive analysis of CRM data using parallel sets. We demonstrate how the flexible layout eases the process of knowledge crystallization, especially when combined with a sophisticated interaction scheme.
+Keywords: categorical dataset; categorical dimension; complex data set; continuous data; customer relationship management; data analysis; data visualisation; data visualization; discrete categorical data; individual data points; interactive analysis; knowledge crystallization; meta data information; parallel coordinates; parallel sets; visual data analysis;
+Author: Bendix, F.; Kosara, R.; Hauser, H.
+
+Year: 2005
+Title: Multivariate glyphs for multi-object clusters
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532140
+Abstract:  Aggregating items can simplify the display of huge quantities of data values at the cost of losing information about the attribute values of the individual items. We propose a distribution glyph, in both two- and three-dimensional forms, which specifically addresses the concept of how the aggregated data is distributed over the possible range of values. It is capable of displaying distribution, variability and extent information for up to four attributes at a time of multivariate, clustered data. User studies validate the concept, showing that both glyphs are just as good as raw data and the 3D glyph is better for answering some questions.
+Keywords: aggregated data; clustered data; data analysis; data visualisation; distribution glyph; information visualization; item aggregation; multi-object cluster; multivariate 3D glyphs; multivariate data; multivariate visualization;
+Author: Chlan, E.B.; Rheingans, P.
+
+Year: 2005
+Title: An interactive 3D integration of parallel coordinates and star glyphs
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532141
+Abstract:  Parallel coordinates are a powerful method for visualizing multidimensional data but, when applied to large data sets, they become cluttered and difficult to read. Star glyphs, on the other hand, can be used to display either the attributes of a data item or the values across all items for a single attribute. Star glyphs may readily provide a quick impression; however, since the full data set require multiple glyphs, overall readings are more difficult. We present parallel glyphs, an interactive integration of the visual representations of parallel coordinates and star glyphs that utilizes the advantages of both representations to offset the disadvantages they have separately. We discuss the role of uniform and stepped colour scales in the visual comparison of non-adjacent items and star glyphs. Parallel glyphs provide capabilities for focus-in-context exploration using two types of lenses and interactions specific to the 3D space.
+Keywords: 3D visualization; colour scales; data item attribute; data visualisation; interactive 3D integration; interactive systems; multidimensional data set; multidimensional data visualization; parallel coordinates; parallel glyphs; star glyphs;
+Author: Fanea, E.; Carpendale, S.; Isenberg, T.
+
+Year: 2005
+Title: Graph-theoretic scagnostics
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532142
+Abstract:  We introduce Tukey and Tukey scagnostics and develop graph-theoretic methods for implementing their procedure on large datasets.
+Keywords: Tukey scagnostics; data visualisation; data visualization; graph theory; graph-theoretic scagnostics; statistical graphics;
+Author: Wilkinson, L.; Anand, A.; Grossman, R.
+
+Year: 2005
+Title: Visualizing coordination in situ
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532143
+Abstract:  Exploratory visualization environments allow users to build and browse coordinated multiview visualizations interactively. As the number of views and amount of coordination increases, conceptualizing coordination structure becomes more and more important for successful data exploration. Integrated metavisualization is exploratory visualization of coordination and other interactive structure directly inside a visualization's own user interface. This paper presents a model of integrated metavisualization, describes the problem of capturing dynamic interface structure as visualizable data, and outlines three general approaches to integration. Metavisualization has been implemented in improvise, using views, lenses, and embedding to reveal the dynamic structure of its own highly coordinated visualizations.
+Keywords: coordinated multiview visualization; coordination structure conceptualization; data exploration; data visualisation; dynamic interface structure; exploratory visualization; graphical user interfaces; integrated metavisualization; interactive browsing; linked views; software visualization; user interface; visualizable data;
+Author: Weaver, C.
+
+Year: 2005
+Title: Two-tone pseudo coloring: compact visualization for one-dimensional data
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532144
+Abstract:  A new pseudo coloring technique for large scale one-dimensional datasets is proposed. For visualization of a large scale dataset, user interaction is indispensable for selecting focus areas in the dataset. However, excessive switching of the visualized image makes it difficult for the user to recognize overview/ detail and detail/ detail relationships. The goal of this research is to develop techniques for visualizing details as precisely as possible in overview display. In this paper, visualization of a one-dimensional but very large dataset is considered. The proposed method is based on pseudo coloring, however, each scalar value corresponds to two discrete colors. By painting with two colors at each value, users can read out the value precisely. This method has many advantages: it requires little image space for visualization; both the overview and details of the dataset are visible in one image without distortion; and implementation is very simple. Several application examples, such as meteorological observation data and train convenience evaluation data, show the effectiveness of the method.
+Keywords: compact visualization; data visualisation; dataset detail visualization; discrete colors; graphical user interfaces; one-dimensional dataset visualization; overview display; two-tone pseudo coloring; user interaction; visualized image;
+Author: Saito, T.; Miyamura, H.N.; Yamamoto, M.; Saito, H.; Hoshiya, Y.; Kaseda, T.
+
+Year: 2005
+Title: A note on space-filling visualizations and space-filling curves
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532145
+Abstract:  A recent line of treemap research has focused on layout algorithms that optimize properties such as stability, preservation of ordering information, and aspect ratio of rectangles. No ideal treemap layout algorithm has been found, and so it is natural to explore layouts that produce nonrectangular regions. This note describes a connection between space-filling visualizations and the mathematics of space-filling curves, and uses that connection to characterize a family of layout algorithms which produce nonrectangular regions but enjoy geometric continuity under changes to the data and legibility even for highly unbalanced trees.
+Keywords: computational geometry; curve fitting; data geometric continuity; data visualisation; space-filling curve; space-filling visualization; treemap layout algorithm; unbalanced trees;
+Author: Wattenberg, M.
+
+Year: 2005
+Title: An optimization-based approach to dynamic visual context management
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532146
+Abstract:  We are building an intelligent multimodal conversation system to aid users in exploring large and complex data sets. To tailor to diverse user queries introduced during a conversation, we automate the generation of system responses, including both spoken and visual outputs. In this paper, we focus on the problem of visual context management, a process that dynamically updates an existing visual display to effectively incorporate new information requested by subsequent user queries. Specifically, we develop an optimization based approach to visual context management. Compared to existing approaches, which normally handle predictable visual context updates, our work offers two unique contributions. First, we provide a general computational framework that can effectively manage a visual context for diverse, unanticipated situations encountered in a user system conversation. Moreover, we optimize the satisfaction of both semantic and visual constraints, which otherwise are difficult to balance using simple heuristics. Second, we present an extensible representation model that uses feature based metrics to uniformly define all constraints. We have applied our work to two different applications and our evaluation has shown the promise of this work.
+Keywords: complex data set; data visualisation; diverse user query; dynamic visual context management; extensible representation model; graphical user interfaces; intelligent multimodal conversation system; intelligent multimodal interface; optimisation; optimization; semantic constraint; system response; user interface management systems; user system conversation; visual constraint; visual context update; visual display;
+Author: Zhen Wen; Zhou, M.X.; Aggarwal, V.
+
+Year: 2005
+Title: Adapting the cognitive walkthrough method to assess the usability of a knowledge domain visualization
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532147
+Abstract:  The usability of knowledge domain visualization (KDViz) tools can be assessed at several levels. Cognitive walkthrough (CW) is a well known usability inspection method that focuses on how easily users can learn software through exploration. Typical applications of CW follow structured tasks where user goals and action sequences that lead to achievement of the goals are well defined. KDViz and other information visualization tools, however, are typically designed for users to explore data and user goals and actions are less well understood. In this paper, we describe how the traditional CW method may be adapted for assessing the usability of these systems. We apply the adapted version of CW to CiteSpace, a KDViz tool that uses bibliometric analyses to create visualizations of scientific literatures. We describe usability issues identified by the adapted CW and discuss how CiteSpace supported the completion of tasks, such as identifying research fronts, and the achievement of goals. Finally, we discuss improvements to the adapted CW and issues to be addressed before applying it to a wider range of KDViz tools.
+Keywords: CiteSpace; bibliographic network; bibliometric analysis; cognitive walkthrough method; data visualisation; information visualization tools; knowledge domain visualization tool; scientific literature visualization; usability inspection method; user software learning;
+Author: Allendoerfer, K.; Aluker, S.; Panjwani, G.; Proctor, J.; Sturtz, D.; Vukovic, M.; Chaomei Chen
+
+Year: 2005
+Title: Importance-driven visualization layouts for large time series data
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532148
+Abstract:  Time series are an important type of data with applications in virtually every aspect of the real world. Often a large number of time series have to be monitored and analyzed in parallel. Sets of time series may show intrinsic hierarchical relationships and varying degrees of importance among the individual time series. Effective techniques for visually analyzing large sets of time series should encode the relative importance and hierarchical ordering of the time series data by size and position, and should also provide a high degree of regularity in order to support comparability by the analyst. In this paper, we present a framework for visualizing large sets of time series. Based on the notion of inter time series importance relationships, we define a set of objective functions that space-filling layout schemes for time series data should obey. We develop an efficient algorithm addressing the identified problems by generating layouts that reflect hierarchy and importance based relationships in a regular layout with favorable aspect ratios. We apply our technique to a number of real world data sets including sales and stock data, and we compare our technique with an aspect ratio aware variant of the well known TreeMap algorithm. The examples show the advantages and practical usefulness of our layout algorithm.
+Keywords: TreeMap algorithm; data visualisation; hierarchical time series data; importance driven visualization layout; information visualization; intrinsic hierarchical relationship; real world data set; space-filling layout algorithm; space-filling layout generation; time series; time series importance relationship; time series visual analysis; time series visualization;
+Author: Hao, M.C.; Umeshwar Dayal; Keim, D.A.; Schreck, T.
+
+Year: 2005
+Title: Temporal visualization of planning polygons for efficient partitioning of geo-spatial data
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532149
+Abstract:  Partitioning of geo-spatial data for efficient allocation of resources such as schools and emergency health care services is driven by a need to provide better and more effective services. Partitioning of spatial data is a complex process that depends on numerous factors such as population, costs incurred in deploying or utilizing resources and target capacity of a resource. Moreover, complex data such as population distributions are dynamic i.e. they may change over time. Simple animation may not effectively show temporal changes in spatial data. We propose the use of three temporal visualization techniques -wedges, rings and time slices - to display the nature of change in temporal data in a single view. Along with maximizing resource utilization and minimizing utilization costs, a partition should also ensure the long term effectiveness of the plan. We use multi-attribute visualization techniques to highlight the strengths and identify the weaknesses of a partition. Comparative visualization techniques allow multiple partitions to be viewed simultaneously. Users can make informed decisions about how to partition geo spatial data by using a combination of our techniques for multi-attribute visualization, temporal visualization and comparative visualization.
+Keywords: comparative visualization; data visualisation; geographic information systems; geospatial data partitioning; multiattribute visualization; multiple partition; resource allocation capacity; resource utilization; temporal data; temporal visualization; time dependent attribute; time slices; town and country planning; utilization cost minimization;
+Author: Poonam Shanbhag; Rheingans, P.; desJardins, M.
+
+Year: 2005
+Title: Flow map layout
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532150
+Abstract:  Cartographers have long used flow maps to show the movement of objects from one location to another, such as the number of people in a migration, the amount of goods being traded, or the number of packets in a network. The advantage of flow maps is that they reduce visual clutter by merging edges. Most flow maps are drawn by hand and there are few computer algorithms available. We present a method for generating flow maps using hierarchical clustering given a set of nodes, positions, and flow data between the nodes. Our techniques are inspired by graph layout algorithms that minimize edge crossings and distort node positions while maintaining their relative position to one another. We demonstrate our technique by producing flow maps for network traffic, census data, and trade data.
+Keywords: cartography; cartography; computational geometry; data flow; data visualisation; edge crossing; edge merging; flow graphs; flow map layout; geographic information system; graph layout algorithm; hierarchical clustering; object movement; visual clutter;
+Author: Doantam Phan; Ling Xiao; Yeh, R.; Hanrahan, P.
+
+Year: 2005
+Title: Visualization of graphs with associated timeseries data
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532151
+Abstract:  The most common approach to support analysis of graphs with associated time series data include: overlay of data on graph vertices for one timepoint at a time by manipulating a visual property (e.g. color) of the vertex, along with sliders or some such mechanism to animate the graph for other timepoints. Alternatively, data from all the timepoints can be overlaid simultaneously by embedding small charts into graph vertices. These graph visualizations may also be linked to other visualizations (e.g., parallel co-ordinates) using brushing and linking. This paper describes a study performed to evaluate and rank graph+timeseries visualization options based on users' performance time and accuracy of responses on predefined tasks. The results suggest that overlaying data on graph vertices one timepoint at a time may lead to more accurate performance for tasks involving analysis of a graph at a single timepoint, and comparisons between graph vertices for two distinct timepoints. Overlaying data simultaneously for all the timepoints on graph vertices may lead to more accurate and faster performance for tasks involving searching for outlier vertices displaying different behavior than the rest of the graph vertices for all timepoints. Single views have advantage over multiple views on tasks that require topological information. Also, the number of attributes displayed on nodes has a non trivial influence on accuracy of responses, whereas the number of visualizations affect the performance time.
+Keywords: computational geometry; computer animation; data visualisation; graph analysis; graph animation; graph theory; graph vertex; graph visualization; time series; time series data analysis; time series data overlay; topological information; visual property manipulation;
+Author: Purvi Saraiya; Lee, P.; North, C.
+
+Year: 2005
+Title: Interactive Sankey diagrams
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532152
+Abstract:  We present a system that allows users to interactively explore complex flow scenarios represented as Sankey diagrams. Our system provides an overview of the flow graph and allows users to zoom in and explore details on demand. The support for quantitative flow tracing across the flow graph as well as representations at different levels of detail facilitate the understanding of complex flow situations. The energy flow in a city serves as a sample scenario for our system. Different forms of energy are distributed within the city and they are transformed into heat, electricity, or other forms of energy. These processes are visualized and interactively explored. In addition our system can be used as a planning tool for the exploration of alternative scenarios by interactively manipulating different parameters in the energy flow network.
+Keywords: Sankey diagram; alternative scenario exploration; complex flow scenario; complex flow situation; data visualisation; flow graph; flow graphs; flow network diagram; graphical user interfaces; interactive parameter manipulation; interactive systems; planning tool; process visualization; quantitative flow tracing; user interactive exploration;
+Author: Riehmann, P.; Hanfler, M.; Froehlich, B.
+
+Year: 2005
+Title: Turning information visualization innovations into commercial products: lessons to guide the next success
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1532153
+Abstract:  As information visualization matures as an academic research field, commercial spinoffs are proliferating, but success stories are harder to find. This is the normal process of emergence for new technologies, but the panel organizers believe that there are certain strategies that facilitate success. To teach these lessons, we have invited several key figures who are seeking to commercialize information visualization tools. The panelists make short presentations, engage in a moderated discussion, and respond to audience questions.
+Keywords: commercial development; commercial product; data visualisation; exploratory data analysis; information visualization innovation; information visualization tool; innovation management; new technology emergence; technology transfer; technology transfer;
+Author: Shneiderman, B.; Rao, R.; Andrews, K.; Ahlberg, C.; Brodbeck, D.; Jewitt, T.; Mackinlay, J.
+
+Year: 2004
+Title: An Evaluation of Microarray Visualization Tools for Biological Insight
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382884
+Abstract: High-throughput experiments such as gene expression microarrays in the life sciences result in large datasets. In response, a wide variety of visualization tools have been created to facilitate data analysis. Biologists often face a dilemma in choosing the best tool for their situation. The tool that works best for one biologist may not work well for another due to differences in the type of insight they seek from their data. A primary purpose of a visualization tool is to provide domain-relevant insight into the data. Ideally, any user wants maximum information in the least possible time. In this paper we identify several distinct characteristics of insight that enable us to recognize and quantify it. Based on this, we empirically evaluate five popular microarray visualization tools. Our conclusions can guide biologists in selecting the best tool for their data, and computer scientists in developing and evaluating visualizations
+Keywords: Data visualization;bioinformatics;bioinformatics;data analysis;data analysis;data visualisation;data visualization;empirical evaluation;gene expression microarrays;genetics;high throughput experiments;insight;life sciences;microarray data;microarray visualization tools;scientific information systems;statistical analysis;very large databases;
+Author: Saraiya, P.; North, C.; Duca, K.
+
+Year: 2004
+Title: User Experiments with Tree Visualization Systems
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382885
+Abstract: This paper describes a comparative experiment with five well-known tree visualization systems, and Windows Explorer as a baseline system. Subjects performed tasks relating to the structure of a directory hierarchy, and to attributes of files and directories. Task completion times, correctness and user satisfaction were measured, and video recordings of subjects' interaction with the systems were made. Significant system and task type effects and an interaction between system and task type were found. Qualitative analyses of the video recordings were thereupon conducted to determine reasons for the observed differences, resulting in several findings and design recommendations as well as implications for future experiments with tree visualization systems
+Keywords: Windows Explorer;accuracy;baseline system;data visualisation;design recommendations;directory hierarchy;experimental comparison;human computer interaction;information visualization;information visualization;task analysis;task performance;tree data structures;tree visualization systems;user interaction;user interaction;user interfaces;user satisfaction;user satisfaction;video recording;video recordings;
+Author: Kobsa, A.
+
+Year: 2004
+Title: A Comparison of the Readability of Graphs Using Node-Link and Matrix-Based Representations
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382886
+Abstract: In this paper, we describe a taxonomy of generic graph related tasks and an evaluation aiming at assessing the readability of two representations of graphs: matrix-based representations and node-link diagrams. This evaluation bears on seven generic tasks and leads to important recommendations with regard to the representation of graphs according to their size and density. For instance, we show that when graphs are bigger than twenty vertices, the matrix-based visualization performs better than node-link diagrams on most tasks. Only path finding is consistently in favor of node-link diagrams throughout the evaluation
+Keywords: Visualization of graphs;adjacency matrices;adjacency matrices;data visualisation;evaluation;graph representations;graph theory;matrix algebra;matrix-based representations;matrix-based visualization;node-link diagrams;node-link representation;readability;
+Author: Ghoniem, M.; Fekete, J.-D.; Castagliola, P.
+
+Year: 2004
+Title: GeoTime Information Visualization
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382887
+Abstract: Analyzing observations over time and geography is a common task but typically requires multiple, separate tools. The objective of our research has been to develop a method to visualize, and work with, the spatial interconnectedness of information over time and geography within a single, highly interactive 3D view. A novel visualization technique for displaying and tracking events, objects and activities within a combined temporal and geospatial display has been developed. This technique has been implemented as a demonstratable prototype called GeoTime in order to determine potential utility. Initial evaluations have been with military users. However, we believe the concept is applicable to a variety of government and business analysis tasks
+Keywords: 3-D visualization;GeoTime information visualization;business analysis tasks;data analysis;data visualisation;geographic information systems;geography;geospatial;geospatial display;interactive 3D view;interactive systems;interactive visualization;link analysis;link analysis;military users;spatiotemporal;spatiotemporal phenomena;spatiotemporal phenomena;temporal databases;tracking;visual data analysis;visual data analysis;visual databases;
+Author: Kapler, T.; Wright, W.
+
+Year: 2004
+Title: RecMap: Rectangular Map Approximations
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382888
+Abstract: In many application domains, data is collected and referenced by its geospatial location. Nowadays, different kinds of maps are used to emphasize the spatial distribution of one or more geospatial attributes. The nature of geospatial statistical data is the highly nonuniform distribution in the real world data sets. This has several impacts on the resulting map visualizations. Classical area maps tend to highlight patterns in large areas, which may, however, be of low importance. Cartographers and geographers used cartograms or value-by-area maps to address this problem long before computers were available. Although many automatic techniques have been developed, most of the value-by-area cartograms are generated manually via human interaction. In this paper, we propose a novel visualization technique for geospatial data sets called RecMap. Our technique approximates a rectangular partition of the (rectangular) display area into a number of map regions preserving important geospatial constraints. It is a fully automatic technique with explicit user control over all exploration constraints within the exploration process. Experiments show that our technique produces visualizations of geospatial data sets, which enhance the discovery of global and local correlations, and demonstrate its performance in a variety of applications
+Keywords: Database and Data Mining Visualization;Geographic Visualization;Information Visualization;RecMap;cartography;cartography;classical area maps;data mining;data mining;data visualisation;geographic information systems;geographic visualization;geospatial statistical data;information visualization;rectangular map approximations;statistical analysis;value-by-area maps;visual databases;
+Author: Heilmann, R.; Keim, D.A.; Panse, C.; Sips, M.
+
+Year: 2004
+Title: EZEL: a Visual Tool for Performance Assessment of Peer-to-Peer File-Sharing Network
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382889
+Abstract: In this paper we present EZEL, a visual tool we developed for the performance assessment of peer-to-peer file-sharing networks. We start by identifying the relevant data transferred in this kind of networks and the main performance assessment questions. Then we describe the visualization of data from two different points of view. First we take servers as focal points and we introduce a new technique, faded cushioning, which allows visualizing the same data from different perspectives. Secondly, we present the viewpoint of files, and we expose the correlations with the server stance via a special scatter plot. Finally, we discuss how our tool, based on the described techniques, is effective in the performance assessment of peer-to-peer file-sharing networks
+Keywords: EZEL visual tool;P2P file-sharing networks visualization;computer displays;data visualisation;data visualization;distributed databases;distributed file systems;distributed file systems visualization;faded cushioning;file servers;peer-to-peer computing;peer-to-peer file-sharing networks;process visualization;small displays;
+Author: Voinea, L.; Telea, A.; van Wijk, J.J.
+
+Year: 2004
+Title: A History Mechanism for Visual Data Mining
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382890
+Abstract: A major challenge of current visualization and visual data mining (VDM) frameworks is to support users in the orientation in complex visual mining scenarios. An important aspect to increase user support and user orientation is to use a history mechanism that, first of all, provides un- and redoing functionality. In this paper, we present a new approach to include such history functionality into a VDM framework. Therefore, we introduce the theoretical background, outline design and implementation aspects of a history management unit, and conclude with a discussion showing the usefulness of our history management in a VDM framework
+Keywords: History;Undo/Redo;Visual data mining;Visualization;data mining;data visualisation;data visualization;distributed databases;graphical user interfaces;history;history management unit;history mechanism;very large databases;visual data mining;visual databases;
+Author: Kreuseler, M.; Nocke, T.; Schumann, H.
+
+Year: 2004
+Title: Steerable, Progressive Multidimensional Scaling
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382891
+Abstract: Current implementations of multidimensional scaling (MDS), an approach that attempts to best represent data point similarity in a low-dimensional representation, are not suited for many of today's large-scale datasets. We propose an extension to the spring model approach that allows the user to interactively explore datasets that are far beyond the scale of previous implementations of MDS. We present MDSteer, a steerable MDS computation engine and visualization tool that progressively computes an MDS layout and handles datasets of over one million points. Our technique employs hierarchical data structures and progressive layouts to allow the user to steer the computation of the algorithm to the interesting areas of the dataset. The algorithm iteratively alternates between a layout stage in which a subselection of points are added to the set of active points affected by the MDS iteration, and a binning stage which increases the depth of the bin hierarchy and organizes the currently unplaced points into separate spatial regions. This binning strategy allows the user to select onscreen regions of the layout to focus the MDS computation into the areas of the dataset that are assigned to the selected bins. We show both real and common synthetic benchmark datasets with dimensionalities ranging from 3 to 300 and cardinalities of over one million points
+Keywords: MDSteer;bin hierarchy;computational complexity;computational geometry;data point similarity;data structures;data visualisation;data visualization tool;dimensionality reduction;graphical user interfaces;hierarchical data structures;interactive systems;iterative methods;multidimensional scaling;progressive multidimensional scaling;spring model approach;very large databases;
+Author: Williams, M.; Munzner, T.
+
+Year: 2004
+Title: A Rank-by-Feature Framework for Unsupervised Multidimensional Data Exploration Using Low Dimensional Projections
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382892
+Abstract: Exploratory analysis of multidimensional data sets is challenging because of the difficulty in comprehending more than three dimensions. Two fundamental statistical principles for the exploratory analysis are (1) to examine each dimension first and then find relationships among dimensions, and (2) to try graphical displays first and then find numerical summaries (D.S. Moore, (1999). We implement these principles in a novel conceptual framework called the rank-by-feature framework. In the framework, users can choose a ranking criterion interesting to them and sort 1D or 2D axis-parallel projections according to the criterion. We introduce the rank-by-feature prism that is a color-coded lower-triangular matrix that guides users to desired features. Statistical graphs (histogram, boxplot, and scatterplot) and information visualization techniques (overview, coordination, and dynamic query) are combined to help users effectively traverse 1D and 2D axis-parallel projections, and finally to help them interactively find interesting features
+Keywords: axis-parallel projections;boxplot;color-coded lower-triangular matrix;computational complexity;computational geometry;computer displays;data analysis;data mining;data visualisation;dynamic query;dynamic query;exploratory data analysis;exploratory data analysis;feature detection;feature detection/selection;feature extraction;feature selection;graph theory;graphical displays;histogram;information visualization;information visualization;interactive systems;rank-by-feature prism;scatterplot;statistical analysis;statistical graphics;statistical graphs;unsupervised multidimensional data exploration;very large databases;
+Author: Seo, J.; Shneiderman, B.
+
+Year: 2004
+Title: Value and Relation Display for Interactive Exploration of High Dimensional Datasets
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382893
+Abstract: Traditional multidimensional visualization techniques, such as glyphs, parallel coordinates and scatterplot matrices, suffer from clutter at the display level and difficult user navigation among dimensions when visualizing high dimensional datasets. In this paper, we propose a new multidimensional visualization technique named a value and relation (VaR) display, together with a rich set of navigation and selection tools, for interactive exploration of datasets with up to hundreds of dimensions. By explicitly conveying the relationships among the dimensions of a high dimensional dataset, the VaR display helps users grasp the associations among dimensions. By using pixel-oriented techniques to present values of the data items in a condensed manner, the VaR display reveals data patterns in the dataset using as little screen space as possible. The navigation and selection tools enable users to interactively reduce clutter, navigate within the dimension space, and examine data value details within context effectively and efficiently. The VaR display scales well to datasets with large numbers of data items by employing sampling and texture mapping. A case study on a real dataset, as well as the VaR displays of multiple real datasets throughout the paper, reveals how our proposed approach helps users interactively explore high dimensional datasets with large numbers of data items
+Keywords: Multi-dimensional visualization;computer displays;data patterns;data visualisation;datasets interactive exploration;high dimensional datasets;image sampling;image texture;interactive systems;multi-dimensional scaling;multidimensional scaling;multidimensional visualization;pattern recognition;pixel-oriented;pixel-oriented techniques;relation display;scatterplot matrices;texture mapping;user interfaces;value display;very large databases;
+Author: Yang, J.; Anilkumar Patro; Huang, S.; Nishant Mehta; Ward, M.O.; Rundensteiner, E.A.
+
+Year: 2004
+Title: Uncovering Clusters in Crowded Parallel Coordinates Visualizations
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382894
+Abstract: The one-to-one strategy of mapping each single data item into a graphical marker adopted in many visualization techniques has limited usefulness when the number of records and/or the dimensionality of the data set are very high. In this situation, the strong overlapping of graphical markers severely hampers the user's ability to identify patterns in the data from its visual representation. We tackle this problem here with a strategy that computes frequency or density information from the data set, and uses such information in parallel coordinates visualizations to filter out the information to be presented to the user, thus reducing visual clutter and allowing the analyst to observe relevant patterns in the data. The algorithms to construct such visualizations, and the interaction mechanisms supported, inspired by traditional image processing techniques such as grayscale manipulation and thresholding are also presented. We also illustrate how such algorithms can assist users to effectively identify clusters in very noisy large data sets
+Keywords: data mining;data visualisation;density-based visualization;density-based visualization;graphical marker;grayscale manipulation;image processing;image processing techniques;information filter;information filters;information visualization;information visualization;interaction mechanisms;interactive systems;parallel coordinates visualization;pattern clustering;pattern identification;user interfaces;very large databases;visual clustering;visual clustering;visual data mining;visual data mining;
+Author: Artero, A.O.; de Oliveira, M.C.F.; Levkowitz, H.
+
+Year: 2004
+Title: Clutter Reduction in Multi-Dimensional Data Visualization Using Dimension Reordering
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382895
+Abstract: Visual clutter denotes a disordered collection of graphical entities in information visualization. Clutter can obscure the structure present in the data. Even in a small dataset, clutter can make it hard for the viewer to find patterns, relationships and structure. In this paper, we define visual clutter as any aspect of the visualization that interferes with the viewer's understanding of the data, and present the concept of clutter-based dimension reordering. Dimension order is an attribute that can significantly affect a visualization's expressiveness. By varying the dimension order in a display, it is possible to reduce clutter without reducing information content or modifying the data in any way. Clutter reduction is a display-dependent task. In this paper, we follow a three-step procedure for four different visualization techniques. For each display technique, first, we determine what constitutes clutter in terms of display properties; then we design a metric to measure visual clutter in this display; finally we search for an order that minimizes the clutter in a display
+Keywords: Multidimensional visualization;clutter;computer displays;data visualisation;dimension order;dimension reorder;display technique;information visualization;multidimensional data visualization;pattern identification;pattern recognition;user interfaces;very large databases;visual clutter;visual clutter reduction;visual structure;visual structure;
+Author: Peng, W.; Ward, M.O.; Rundensteiner, E.A.
+
+Year: 2004
+Title: Time-Varying Data Visualization Using Information Flocking Boids
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382896
+Abstract: This research demonstrates how principles of self-organization and behavior simulation can be used to represent dynamic data evolutions by extending the concept of information flocking, originally introduced by Proctor &amp; Winter (1998), to time-varying datasets. A rule-based behavior system continuously controls and updates the dynamic actions of individual, three-dimensional elements that represent the changing data values of reoccurring data objects. As a result, different distinguishable motion types emerge that are driven by local interactions between the spatial elements as well as the evolution of time-varying data values. Notably, this representation technique focuses on the representation of dynamic data alteration characteristics, or how reoccurring data objects change over time, instead of depicting the exact data values themselves. In addition, it demonstrates the potential of motion as a useful information visualization cue. The original information flocking approach is extended to incorporate time-varying datasets, live database querying, continuous data streaming, real-time data similarity evaluation, automatic shape generation and more stable flocking algorithms. Different experiments prove that information flocking is capable of representing short-term events as well as long-term temporal data evolutions of both individual and groups of time-dependent data objects. An historical stock market quote price dataset is used to demonstrate the algorithms and principles of time-varying information flocking
+Keywords: 3D information visualization;3D information visualization;artificial life;artificial life;artificial life;automatic shape generation;boids;data visualisation;database querying;dynamic data alteration;information flocking boids;interactive systems;motion;motion estimation;pattern recognition;query processing;real-time data similarity;rule-based behavior system;self-organization simulation;stock market;temporal data evolution;temporal databases;time-varying data visualization;time-varying information visualization;
+Author: Moere, A.V.
+
+Year: 2004
+Title: Artifacts of the Presence Era: Using Information Visualization to Create an Evocative Souvenir
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382897
+Abstract: We present Artifacts of the Presence Era, a digital installation that uses a geological metaphor to visualize the events in a physical space over time. The piece captures video and audio from a museum and constructs an impressionistic visualization of the evolving history in the space. Instead of creating a visualization tool for data analysis, we chose to produce a piece that functions as a souvenir of a particular time and place. We describe the design choices we made in creating this installation, the visualization techniques we developed, and the reactions we observed from users and the media. We suggest that the same approach can be applied to a more general set of visualization contexts, ranging from email archives to newsgroups conversations
+Keywords: Internet;Presence Era Artifacts;audio data;audio databases;data analysis;data analysis;data visualisation;digital installation;email archives;geological metaphor;history;history;information visualization;museum gallery;newsgroups conversations;pattern recognition;public space;very large databases;video databases;video footage;visualization;
+Author: Viegas, F.B.; Perry, E.; Howe, E.; Donath, J.
+
+Year: 2004
+Title: Paint Inspired Color Mixing and Compositing for Visualization
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382898
+Abstract: Color is often used to convey information, and color compositing is often required while visualizing multiattribute information. This paper proposes an alternative method for color compositing. In order to present understandable color blending to the general public, several techniques are proposed. First, a paint-inspired RYB color space is used. In addition, noise patterns are employed to produce subregions of pure color within an overlapped region. We show examples to demonstrate the effectiveness of our technique for visualization
+Keywords: Color Mixing;Perception;RYB;RYB color space;blending;color blending;color compositing;colour graphics;colour vision;computer displays;data visualisation;human perceptual system;multiattribute information visualization;noise patterns;paint inspired color mixing;pattern recognition;visual databases;visual perception;
+Author: Gossett, N.; Chen, B.
+
+Year: 2004
+Title: Expand-Ahead: A Space-Filling Strategy for Browsing Trees
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382899
+Abstract: Many tree browsers allow subtrees under a node to be collapsed or expanded, enabling the user to control screen space usage and selectively drill-down. However, explicit expansion of nodes can be tedious. Expand-ahead is a space-filling strategy by which some nodes are automatically expanded to fill available screen space, without expanding so far that nodes are shown at a reduced size or outside the viewport. This often allows a user exploring the tree to see further down the tree without the effort required in a traditional browser. It also means the user can sometimes drill-down a path faster, by skipping over levels of the tree that are automatically expanded for them. Expand-ahead differs from many detail-in-context techniques in that there is no scaling or distortion involved. We present 1D and 2D prototype implementations of expand-ahead, and identify various design issues and possible enhancements to our designs. Our prototypes support smooth, animated transitions between different views of a tree. We also present the results of a controlled experiment which show that, under certain conditions, users are able to drill-down faster with expand-ahead than without
+Keywords: adaptive user interfaces;adaptive user interfaces;automatic expansion;automatic expansion;computer animation;detail-in-context techniques;drill-down faster;expand-ahead space-filling strategy;expandahead;focus+context;space filling;tree browsing;tree browsing and navigation;tree data structures;user interfaces;user navigation;
+Author: McGuffin, M.J.; Davison, G.; Ravin Balakrishnan
+
+Year: 2004
+Title: Evaluating a System for Interactive Exploration of Large, Hierarchically Structured Document Repositories
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382900
+Abstract: The InfoSky visual explorer is a system enabling users to interactively explore large, hierarchically structured document collections. Similar to a real-world telescope, InfoSky employs a planar graphical representation with variable magnification. Documents of similar content are placed close to each other and displayed as stars, while collections of documents at a particular level in the hierarchy are visualised as bounding polygons. Usability testing of an early prototype implementation of InfoSky revealed several design issues which prevented users from fully exploiting the power of the visual metaphor. Evaluation results have been incorporated into an advanced prototype, and another usability test has been conducted. A comparison of test results demonstrates enhanced system performance and points out promising directions for further work
+Keywords: InfoSky visual explorer;Voronoi;Voronoi diagram;computational geometry;data visualisation;data warehouses;document handling;document retrieval;document retrieval;force-directed placement;force-directed placement;graphical representation;hierarchical repositories;information management;information management;information retrieval;information visualisation;information visualisation;interactive exploration;interactive systems;knowledge management;knowledge management;knowledge management;navigation;real-world telescope;structured document repositories;user interfaces;visual metaphor;
+Author: Granitzer, M.; Kienreich, W.; Sabol, V.; Andrews, K.; Klieber, W.
+
+Year: 2004
+Title: Metric-Based Network Exploration and Multiscale Scatterplot
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382901
+Abstract: We describe an exploratory technique based on the direct interaction with a 2D modified scatterplot computed from two different metrics calculated over the elements of a network. The scatterplot is transformed into an image by applying standard image processing techniques resulting into blurring effects. Segmentation of the image allow to easily select patches on the image as a way to extract subnetworks. We were inspired by the work of Wattenberg and Fisher [M. Wattenberg et al. (2003)] showing that the blurring process builds into a multiscale perceptual scheme, making this type of interaction intuitive to the user. We explain how the exploration of the network can be guided by the visual analysis of the blurred scatterplot and by its possible interpretations
+Keywords: Graph navigation;blurring;clustering;data visualisation;exploration;filtering;graph navigation;graph visualization;image blurring;image processing;image segmentation;image segmentation;metric-based network exploration;multiscale perceptual organization;multiscale perceptual scheme;multiscale scatterplot;pattern clustering;pattern clustering;scatterplot;
+Author: Chiricota, Y.; Jourdan, F.; Melancon, G.
+
+Year: 2004
+Title: BEST PAPER: A Knowledge Task-Based Framework for Design and Evaluation of Information Visualizations
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382902
+Abstract: The design and evaluation of most current information visualization systems descend from an emphasis on a user's ability to "unpack" the representations of data of interest and operate on them independently. Too often, successful decision-making and analysis are more a matter of serendipity and user experience than of intentional design and specific support for such tasks; although humans have considerable abilities in analyzing relationships from data, the utility of visualizations remains relatively variable across users, data sets, and domains. In this paper, we discuss the notion of analytic gaps, which represent obstacles faced by visualizations in facilitating higher-level analytic tasks, such as decision-making and learning. We discuss support for bridging the analytic gap, propose a framework for design and evaluation of information visualization systems, and demonstrate its use
+Keywords: Information visualization;analytic gap;analytic gap;data analysis;data analysis;data visualisation;decision making;decision-making;evaluation;framework;information visualization system;knowledge tasks;knowledge tasks;theory;
+Author: Amar, R.; Stasko, J.
+
+Year: 2004
+Title: Rethinking Visualization: A High-Level Taxonomy
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382903
+Abstract: We present the novel high-level visualization taxonomy. Our taxonomy classifies visualization algorithms rather than data. Algorithms are categorized based on the assumptions they make about the data being visualized; we call this set of assumptions the design model. Because our taxonomy is based on design models, it is more flexible than existing taxonomies and considers the user's conceptual model, emphasizing the human aspect of visualization. Design models are classified according to whether they are discrete or continuous and by how much the algorithm designer chooses display attributes such as spatialization, timing, colour, and transparency. This novel approach provides an alternative view of the visualization field that helps explain how traditional divisions (e.g., information and scientific visualization) relates and overlap, and that may inspire research ideas in hybrid visualization areas
+Keywords: classification;conceptual model;conceptual model;data visualisation;design model;design model;high-level visualization taxonomy;human factors;pattern classification;pattern classification;spatialization;taxonomy;user model;user model;user modelling;visualization;
+Author: Tory, M.; Moller, T.
+
+Year: 2004
+Title: Building Highly-Coordinated Visualizations in Improvise
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382904
+Abstract: Improvise is a fully-implemented system in which users build and browse multiview visualizations interactively using a simple shared-object coordination mechanism coupled with a flexible, expression-based visual abstraction language. By coupling visual abstraction with coordination, users gain precise control over how navigation and selection in the visualization affects the appearance of data in individual views. As a result, it is practical to build visualizations with more views and richer coordination in Improvise than in other visualization systems. Building and browsing activities are integrated in a single, live user interface that lets users alter visualizations quickly and incrementally during data exploration
+Keywords: Improvise visualization system;coordinated queries;coordinated queries;coordination;data exploration;data visualisation;exploratory visualization;graphical user interfaces;information navigation;multiple views;programming environments;relational databases;shared-object coordination mechanism;user interface;visual abstraction language;visual abstraction language;visual languages;
+Author: Weaver, C.
+
+Year: 2004
+Title: The InfoVis Toolkit
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382905
+Abstract: This article presents the InfoVis toolkit, designed to support the creation, extension and integration of advanced 2D information visualization components into interactive Java swing applications. The InfoVis toolkit provides specific data structures to achieve a fast action/feedback loop required by dynamic queries. It comes with a large set of components such as range sliders and tailored control panels required to control and configure the visualizations. These components are integrated into a coherent framework that simplifies the management of rich data structures and the design and extension of visualizations. Supported data structures currently include tables, trees and graphs. Supported visualizations include scatter plots, time series, parallel coordinates, treemaps, icicle trees, node-link diagrams for trees and graphs and adjacency matrices for graphs. All visualizations can use fisheye lenses and dynamic labeling. The InfoVis toolkit supports hardware acceleration when available through Agile2D, an implementation of the Java graphics API based on OpenGL, achieving speedups of 10 to 200 times. The article also shows how new visualizations can be added and extended to become components, enriching visualizations as well as general applications
+Keywords: 2D information visualization;API;Graphics;InfoVis toolkit;Information Visualization;Integration;Java;Toolkit;application program interfaces;data structures;data structures;data visualisation;dynamic labeling;dynamic queries;fisheye lenses;graphical user interface;graphical user interfaces;hardware acceleration;interactive Java swing;query processing;
+Author: Fekete, J.-D.
+
+Year: 2004
+Title: Topological Fisheye Views for Visualizing Large Graphs
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382906
+Abstract: Graph drawing is a basic visualization tool. For graphs of up to hundreds of nodes and edges, there are many effective techniques available. At greater scale, data density and occlusion problems often negate its effectiveness. Conventional pan-and-zoom, and multiscale and geometric fisheye views are not fully satisfactory solutions to this problem. As an alternative, we describe a topological zooming method. It is based on the precomputation of a hierarchy of coarsened graphs, which are combined on the fly into renderings with the level of detail dependent on the distance from one or more foci. We also discuss a related distortion method that allows our technique to achieve constant information density displays
+Keywords: data structures;data visualisation;distortion method;graph drawing;graphical user interfaces;hidden feature removal;large graph visualization;large graph visualization;occlusion;rendering (computer graphics);technical drawing;topological fisheye;topological fisheye view;topological zooming method;
+Author: Gansner, E.; Koren, Y.; North, S.
+
+Year: 2004
+Title: Matrix Zoom: A Visual Interface to Semi-External Graphs
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382907
+Abstract: In Web data, telecommunications traffic and in epidemiological studies, dense subgraphs correspond to subsets of subjects (i.e. users, patients) that share a collection of attributes values (i.e. accessed Web pages, email-calling patterns or disease diagnostic profiles). Visual and computational identification of these "clusters" becomes useful when domain experts desire to determine those factors of major influence in the formation of access and communication clusters or in the detection and contention of disease spread. With the current increases in graphic hardware capabilities and RAM sizes, it is more useful to relate graph sizes to the available screen real estate S and the amount of available RAM M, instead of the number of edges or nodes in the graph. We offer a visual interface that is parameterized by M and S and is particularly suited for navigation tasks that require the identification of subgraphs whose edge density is above certain threshold. This is achieved by providing a zoomable matrix view of the underlying data. This view is strongly coupled to a hierarchical view of the essential information elements present in the data domain. We illustrate the applicability of this work to the visual navigation of cancer incidence data and to an aggregated sample of phone call traffic
+Keywords: Cancer Data;Clustering;External Memory Algorithms;Graph Visualization;Hierarchy Trees;Phone Traffic;cancer data;data visualisation;external memory algorithms;graph visualization;graphic hardware;graphical user interfaces;hierarchy trees;information retrieval;pattern clustering;pattern clustering;phone call traffic;semiexternal graphs;tree data structures;visual interface;zoomable matrix view;
+Author: Abello, J.; van Ham, F.
+
+Year: 2004
+Title: Dynamic Drawing of Clustered Graphs
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382908
+Abstract: This paper presents an algorithm for drawing a sequence of graphs that contain an inherent grouping of their vertex set into clusters. It differs from previous work on dynamic graph drawing in the emphasis that is put on maintaining the clustered structure of the graph during incremental layout. The algorithm works online and allows arbitrary modifications to the graph. It is generic and can be implemented using a wide range of static force-directed graph layout tools. The paper introduces several metrics for measuring layout quality of dynamic clustered graphs. The performance of our algorithm is analyzed using these metrics. The algorithm has been successfully applied to visualizing mobile object software
+Keywords: clustered graphs;computer animation;computer animation;data structures;data structures;data visualisation;dynamic graph drawing;dynamic layout;graph drawing;graphical user interfaces;graphical user interfaces;mobile computing;mobile objects;mobile objects;pattern clustering;software visualization;software visualization;technical drawing;
+Author: Frishman, Y.; Tal, A.
+
+Year: 2004
+Title: Interactive Visualization of Small World Graphs
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382909
+Abstract: Many real world graphs have small world characteristics, that is, they have a small diameter compared to the number of nodes and exhibit a local cluster structure. Examples are social networks, software structures, bibliographic references and biological neural nets. Their high connectivity makes both finding a pleasing layout and a suitable clustering hard. In this paper we present a method to create scalable, interactive visualizations of small world graphs, allowing the user to inspect local clusters while maintaining a global overview of the entire structure. The visualization method uses a combination of both semantical and geometrical distortions, while the layout is generated by a spring embedder algorithm using recently developed force model. We use a cross referenced database of 500 artists as a running example
+Keywords: Clustering;Graph Drawing;Graph Visualization;Small World Graphs;computational geometry;computational geometry;data structures;data structures;data visualisation;database management systems;database management systems;graph drawing;graph visualization;graphical user interface;graphical user interfaces;interactive visualization;pattern clustering;pattern clustering;rendering (computer graphics);small world graphs;spring embedder algorithm;technical drawing;
+Author: van Ham, F.; van Wijk, J.J.
+
+Year: 2004
+Title: Non-Euclidean Spring Embedders
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382910
+Abstract: We present a method by which force-directed algorithms for graph layouts can be generalized to calculate the layout of a graph in an arbitrary Riemannian geometry. The method relies on extending the Euclidean notions of distance, angle, and force-interactions to smooth nonEuclidean geometries via projections to and from appropriately chosen tangent spaces. In particular, we formally describe the calculations needed to extend such algorithms to hyperbolic and spherical geometries
+Keywords: Riemannian geometry;computational geometry;data visualisation;force-directed algorithm;force-directed algorithms;graph drawing;graph drawing;graph theory;graph visualization;hyperbolic geometry;hyperbolic space;information visualization;information visualization;non-Euclidean geometry;nonEuclidean geometry;spherical geometry;spherical space;spring embedders;spring embedders;technical drawing;
+Author: Kobourov, S.G.; Wampler, K.
+
+Year: 2004
+Title: TextPool: Visualizing Live Text Streams
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382912
+Abstract:  In today's fast-paced world it is becoming increasingly difficult to stay abreast of the public discourse. With the advent of hundreds of closed-captioned cable channels and internet-based channels such as news feeds, blogs, or email, knowing the "buzz" is a particular challenge. TextPool addresses this problem by quickly summarizing recent content in live text streams. The summarization is a dynamically changing textual collage that clusters related terms. We tested TextPool with the content of several RSS newswire feeds, which are updated roughly every five minutes. TextPool was able to handle this bandwidth well, and produced useful summarizations of feed content.
+Keywords: data streams; information retrieval; information visualization; newswires; text layout;
+Author: Albrecht-Buehler, C.; Watson, B.; Shamma, D.A.
+
+Year: 2004
+Title: BinX: Dynamic Exploration of Time Series Datasets Across Aggregation Levels
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382913
+Abstract:  Many fields of study produce time series datasets, and both the size and number of theses datasets are increasing rapidly due to the improvement of data accumulation methods such as small, cheap sensors and routine logging of events. Humans often fail to comprehend the structure of a long time series dataset because of the overwhelming amount of data and the range of different time scales at which there may be meaningful patterns. BinX is an interactive tool that provides dynamic visualization and manipulation of long time series datasets. The dataset is visualized through user controlled aggregation, augmented by various information visualization techniques.
+Keywords: aggregation; detail; marking; overview; time series;
+Author: Berry, L.; Munzner, T.
+
+Year: 2004
+Title: PhylloTrees: Harnessing Nature&#146;s Phyllotactic Patterns for Tree Layout
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382914
+Abstract:  We explore the use of nature&#146;s phyllotactic patterns to inform the layout of hierarchical data. These naturally occurring patterns provide a non-overlapping, optimal packing when the total number of nodes is not known a priori. We present a family of expandable tree layouts based on these patterns.
+Keywords: Graph layout; information visualization; phyllotactic patterns; tree visualization;
+Author: Carpendale, S.; Agarawala, A.
+
+Year: 2004
+Title: Hypothesis Visualization
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382915
+Abstract:  We have constructed an information visualization tool for understanding complex arguments. The tool enables analysts to construct structured arguments using judicial proof techniques, associate evidence with hypotheses, and set evidence parameters such as relevance and credibility. Users manipulate the hypotheses and their associated inference networks using visualization techniques. Our tool integrates concepts from structured argumentation, analysis of competing hypotheses, and hypothesis scoring with information visualization. It presents new metaphors for visualizing and manipulating structured arguments.
+Keywords: "><meta name="citation_conference" content="Information Visualization, 2004. INFOVIS 2004. IEEE Symposium on
+Author: Cluxton, D.; Eick, S.G.; Jie Yun
+
+Year: 2004
+Title: An Experimental Investigation of Magnification Lens Offset and Its Impact on Imagery Analysis
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382916
+Abstract:  A digital lens is a user interface mechanism that is a potential solution to information mangement problems. We investigated the use of digital lensing applied to imagery analysis. Participants completed three different types of tasks (locate, follow, and compare) using a magnification lens with three different degrees of offset (aligned, adjacent, and docked) over a high-resolution aerial photo. Although no lens offset mode was significantly better than another, most participants preferred the adjacent mode for the locate and compare tasks, and the docked mode for the follow tasks. This paper describes the results of a user study of magnification lenses and provides new insights into preferences of and interactions with digital lensing.
+Keywords: imagery analysis; information visualization; lens interaction; magnification lens; usability study;
+Author: Darling, E.; Newbern, C.; Kalghatgi, N.; Burgman, A.; Recktenwald, K.
+
+Year: 2004
+Title: Visualizing E-mail with a Semantically Zoomable Interface
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382917
+Abstract:  We introduce a semantically zoomable interface that displays emails as interactive objects rather than files containing lines of text, as in traditional e-mail interfaces. In this system, e-mails are displayed as node objects called e-mail nodes within a 2.5-dimensional world. The e-mail nodes are semantically zoomable and each may be rearranged to different locations within the plane to organize threads, topics, or projects. The prototype for this system was built using the Piccolo toolkit, the successor of Pad++ and Jazz [2, 3].
+Keywords: Clutter; Piccolo; e-mail; information visualization; semantic zoom;
+Author: Diep, E.; Jacob, R.J.K.
+
+Year: 2004
+Title: Interactive Exploration of the AFS File System
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382918
+Abstract:  Managing file systems of large organizations can present significant challenges in terms of the number of users, shared access to parts of the file system, and securing and monitoring critical parts of the file system. We present an interactive exploratory tool for monitoring and viewing the complex relationships within the Andrews File System (AFS). This tool is targeted as an aid to system administrators to manage users, applications and shared access. We tested our tool on UNC Charlotte&#146;s Andrews File System (AFS) file system, which contains 4554 users, 556 user groups, and 2.2 million directories. Two types of visualizations are supported to explore file system relationships. In addition, drill-down features are provided to access the user file system and access control information of any directory within the system. All of the views are linked to facilitate easy navigation.
+Keywords: AFS; drill-down; filesystem; monitoring; visualization;
+Author: Foster, J.; Subramanian, K.; Herring, R.; Gail Ahn
+
+Year: 2004
+Title: ARNA: Interactive Comparison and Alignment of RNA Secondary Structure
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382919
+Abstract:  ARNA is an interactive visualization system that supports comparison and alignment of RNA secondary structure. We present a new approach to RNA alignment that exploits the complex structure of the Smith-Waterman local distance matrix, allowing people to explore the space of possible partial alignments to discover a good global solution. The modular software architecture separates the user interface from computation, allowing the possibility of incorporating different alignment algorithms into the same framework.
+Keywords: RNA; bioinformatics; combinatorics; graph drawing; sequence alignment; visualization;
+Author: Gainant, G.; Auber, D.
+
+Year: 2004
+Title: Tracking User Interactions Within Visualizations
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382920
+Abstract:  We present a model and prototype system for tracking user interactions within a visualization. The history of the interactions are exposed to the user in a way that supports non-linear navigation of the visualization space. The interactions can be augmented with annotations, which, together with the interactions, can be shared with other users and applied to other data in a seamless way. The techniques constitute a novel approach for documenting information provenance.
+Keywords: interaction; provenance; user tracking; visualization;
+Author: Groth, D.P.; Murphy, B.W.
+
+Year: 2004
+Title: Interactive Visualization Approaches to the Analysis of System Identification Data
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382922
+Abstract:  We propose an interactive visualization approach to finding a mathematical model for a real world process, commonly known in the field of control theory as system identification. The use of interactive visualization techniques provides the modeller with instant visual feedback which facilitates the model validation process. When working interactively with such large data sets, as are common in system identification, methods to handle this data efficiently are required. We are developing approaches based on data streaming to meet this need.
+Keywords: Interactive Visualization; Model Validation; System Identification;
+Author: Johansson, J.; Patric Ljung; Lindgren, D.; Cooper, M.
+
+Year: 2004
+Title: Visual Browsing of Remote and Distributed Data
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382923
+Abstract:  Data repositories around the world hold many thousands of data sets. Finding information from these data sets is greatly facilitated by being able to quickly and efficiently browse remote data sets. In this note, we introduce the Iconic Remote Visual Data Exploration tool(IRVDX), which is a visual data mining tool used for exploring the features of remote and distributed data without the necessity of downloading the entire data set. IRVDX employs three kinds of visualizations: one provides a reduced representation of the data sets, which we call Dataset Icons. These icons show the important statistical characteristics of data sets and help to identify relevant data sets from distributed repositories. Another one is called the Remote Dataset Visual Browser that provides visualizations to browse remote data without downloading the complete data set to identify its content. The final one provides visualizations to show the degree of similarity between two data sets and to visually determine whether a join of two remote data sets will be meaningful.
+Keywords: distributed data; information visualization; visual data exploration; visual data mining;
+Author: Krishnaswamy, P.; Eick, S.G.; Grossman, R.L.
+
+Year: 2004
+Title: Resource Systems Reference Database
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382924
+Abstract:  This interactive poster proposes a novel, explorative way to browse a database containing links to resource systems-related information online. Our approach is an illustrative one, and draws on our combined backgrounds in computer science, graphic and interaction design, sustainability, community organization, and urban design. The data visualized in our prototype was collected by students in the course Sustainable Habits, which Lauren Dietrich taught at Stanford University during Winter 2004.
+Keywords: sustainability;
+Author: Lu, D.; Dietrich, L.
+
+Year: 2004
+Title: faMailiar & Intimacy-Based Email Visualization
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382925
+Abstract:  Email has developed into one of the most extensively used computer applications. Email interfaces, on the other hand, have gone through very few transformations since their inception, and as the growing volumes of email data accumulate in users' email boxes, these interfaces fail to provide effective message handling and browsing support. Saved email messages provide not only a vast record of one's electronic past, but also a potential source of valuable insights into the structure and dynamics of one's social network. In this paper, we present faMailiar, a novel email visualization that draws upon email's inherently personal character by using intimacy as a key visualization parameter. The program presents a visualization of email use over time. faMailiar facilitates navigation through large email collections, enabling the user to discover communication rhythms and patterns.
+Keywords: electronic mail; information visualization;
+Author: Mandic, M.; Kerne, A.
+
+Year: 2004
+Title: Visualizing and Interacting with Multi-Tree Hierarchical Data
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382926
+Abstract:  This work focuses on visualizing highly cyclic hierarchical data. A user interface is discussed and its interaction is illustrated using a recipe database example. This example showcases a database with multiple categories for each recipe (database entry).
+Keywords: database visualization; focus+context; information visualization; radial graph layout;
+Author: Mohammadi-Aragh, M.J.; Jankun-Kelly, T.J.
+
+Year: 2004
+Title: EventScope: Bringing Remote Experience of Mars to the Public through Telepresence
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382927
+Abstract:  Telepresence, experiencing a place without physically being there, offers an important means for the public experience of remote locations such as distant continents or other planets. EventScope presents one such telepresence visualization interface for bringing scientific missions to the public. Currently, remote experience lessons based on NASA&#146;s Mars Exploration Rover missions are being made available through the EventScope framework to museums, classrooms, and the public at large.
+Keywords: public interfaces; remote experience; telepresence; visualization;
+Author: Myers, E.; Coppin, P.; Wagner, M.; Fischer, K.; Luisa Lu; McCloskey, W.R.; Seneker, D.
+
+Year: 2004
+Title: Histographs: Interactive Clustering of Stacked Graphs
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382928
+Abstract:  Visualization systems must intuitively display and allow interaction with large multivariate data on low-dimensional displays. One problem often encountered in the process is occlusion: the ambiguity that occurs when records from different data sets are mapped to the same display location. For example, because of occlusion summarizing 1000 graphs by simply stacking them one over another is pointless. We solve this problem by adapting the solution to a similar problem in the Information Murals system [2]: mapping the number of data elements at a location to display luminance. Inspired by histograms, which map data frequency to space, we call our solution histographs. By treating a histograph as a digital image, we can blur and highlight edges to emphasize data features. We also support interactive clustering of the data with data zooming and shape-based selection. We are currently investigating alternative occlusion blending schemes.
+Keywords: data occlusion; digital image processing; information visualization; visualizing large data sets;
+Author: Pin Ren; Watson, B.
+
+Year: 2004
+Title: RankSpiral: Toward Enhancing Search Results Visualizations
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382929
+Abstract:  This paper addresses the problem of how to enable users to visually explore and compare large sets of documents that have been retrieved by different search engines or queries. The Rank-Spiral enables users to rapidly scan large numbers of documents and their titles in a single screen. It uses a spiral mapping that maximizes information density and minimizes occlusions. It solves the labeling problem by exploiting the structure of the special spiral mapping used. Focus+Context interactions enable users to examine document clusters or groupings in more detail.
+Keywords: Information visualization; document visualization; meta searching; visual search tools;
+Author: Spoerri, A.
+
+Year: 2004
+Title: Creating and Managing Lookmarks in ParaView
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382930
+Abstract:  This paper describes the integration of lookmarks into the ParaView visualization tool. Lookmarks are pointers to views of specific parts of a dataset. They were so named because lookmarks are to a visualization tool and dataset as bookmarks are to a browser and the World Wide Web. A lookmark can be saved and organized among other lookmarks within the context of ParaView. Then at a later time, either in the same ParaView session or in a different one, it can be regenerated, displaying the exact view of the data that had previously been saved. This allows the user to pick up where they left off, to continue to adjust the view or otherwise manipulate the data. Lookmarks facilitate collaboration between users who wish to share views of a dataset. They enable more effective data comparison because they can be applied to other datasets. They also serve as a way of organizing a user&#146;s data. Ultimately, a lookmark is a time-saving tool that automates the recreation of a complex view of the data.
+Keywords: "><meta name="citation_conference" content="Information Visualization, 2004. INFOVIS 2004. IEEE Symposium on
+Author: Stanton, E.T.; Kegelmeyer, W.P.
+
+Year: 2004
+Title: Visualizing High Dimensional Datasets Using Partiview
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382931
+Abstract:  A standard method of visualizing high-dimensional data is reducing its dimensionality to two or three using some algorithm, and then creating a scatterplot with data represented by labelled and/or colored dots. Two problems with this approach are (1) dots do not represent data well, (2) reducing to just three dimensions does not make full use of several dimensionality-reduction algorithms. We demonstrate how Partiview can be used to solve these problems, in the context of handwriting recognition and image retrieval.
+Keywords: dimensionality reduction; glyphs; high dimensional data visualization; image retrieval; information visualization; optical character recognition;
+Author: Surendran, D.; Levy, S.
+
+Year: 2004
+Title: Distortion-Based Visualization for Long-Term Continuous Acoustic Monitoring
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382932
+Abstract:  Visualizing long-term acoustic data has been an important subject in the field of equipment surveillance and equipment diagnosis. This paper proposes a distortion-based visualization method of long-term acoustic data. We applied the method to 1 hour observation data of electric discharge sound, and our method could visualize the sound data more intelligibly as compared with conventional methods.
+Keywords: Acoustic visualization; distortion; monitoring;
+Author: Tsutsumi, F.; Itoh, N.; Onoda, T.
+
+Year: 2004
+Title: VIM: A Framework for Intelligence Analysis
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382933
+Abstract:  Intelligence analysts receive thousands of facts from a variety of sources. In addition to the bare details of the fact &#8212; a particular person, for example &#8212; each fact may have provenance, reliability, weight, and other attributes. Each fact may also be associated with other facts, e.g. that one person met another at a particular location. The analyst&#146;s task is to examine a huge collection of such loosely-structured facts, and try to "connect the dots" to perceive the underlying and unknown causes &#8212; and their possible future courses. We have designed and implemented a Java platform called VIM to support intelligence analysts in their work.
+Keywords: XML; information visualization; intelligence analysis; knowledge representation;
+Author: Keahey, T.A.; Cox, K.C.
+
+Year: 2004
+Title: Major Information Visualization Authors, Papers and Topics in the ACM Library
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382934
+Abstract:  The presented work aims to identify major research topics, co-authorships, and trends in the IV Contest 2004 dataset. Co-author, paper-citation, and burst analysis were used to analyze the dataset. The results are visually presented as graphs, static Pajek [1] visualizations and interactive network layouts using Pajek&#146;s SVG output feature. A complementary web page with all the raw data, details of the analyses, and high resolution images of all figures is available online at http://iv.slis.indiana.edu/ref/iv04contest/.
+Keywords: Citation analysis; co-author analysis; visualization;
+Author: Weimao Ke; Borner, K.; Viswanath, L.
+
+Year: 2004
+Title: IN-SPIRE InfoVis 2004 Contest Entry
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382935
+Abstract:  This is the first part (summary) of a three-part contest entry submitted to IEEE InfoVis 2004. The contest topic is visualizing InfoVis symposium papers from 1995 to 2002 and their references. The paper introduces the visualization tool IN-SPIRE, the visualization process and results, and presents lessons learned.
+Keywords: "><meta name="citation_conference" content="Information Visualization, 2004. INFOVIS 2004. IEEE Symposium on
+Author: Pak Chung Wong; Hetzler, B.; Posse, C.; Whiting, M.; Havre, S.; Cramer, N.; Anuj Shah; Singhal, M.; Turner, A.; Thomas, J.
+
+Year: 2004
+Title: Understanding Eight Years of InfoVis Conferences Using PaperLens
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382936
+Abstract:  We present PaperLens, a visualization that reveals connections, trends, and activity throughout the InfoVis conference community for the last 8 years. It tightly couples views across papers, authors, and references. This paper describes how we analyzed the data, the strengths and weaknesses of PaperLens, and interesting patterns and relationships we have discovered using PaperLens.
+Keywords: "><meta name="citation_conference" content="Information Visualization, 2004. INFOVIS 2004. IEEE Symposium on
+Author: Bongshin Lee; Czerwinski, M.; Robertson, G.; Bederson, B.B.
+
+Year: 2004
+Title: WilmaScope Graph Visualisation
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382937
+Abstract:  Our visualisation of the IEEE InfoVis citation network is based on 3D graph visualisation techniques. To make effective use of the third dimension we use a layered approach, constraining nodes to lie on parallel planes depending on parameters such as year of publication or link degree. Within the parallel planes nodes are arranged using a fast force-directed layout method. A number of clusters representing different research areas were identified using a self organising map approach.
+Keywords: graph visualization; infovis contest; self organizing map;
+Author: Ahmed, A.; Dwyer, T.; Murray, C.; Le Song; Ying Xin Wu
+
+Year: 2004
+Title: Case Study: Visualizing Visualization
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382938
+Abstract:  In this case study we attempt to visualize a real-world dataset consisting of 600 recently published information visualization papers and their references. This is done by first creating a global layout of the entire graph that preserves any cluster structure present. We then use this layout as a basis to define a hierarchical clustering. The clusters in this hierarchy are labelled using keywords supplied with the dataset, allowing insight into the clusters semantics.
+Keywords: Clustering; Graph Drawing; Graph Visualization; Information Visualization; Small World Graphs;
+Author: van Ham, F.
+
+Year: 2004
+Title: InfoVisExplorer
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382940
+Abstract:  In this paper we briefly describe 3 tools developed to visualize the history of information visualization papers. The visualization consists of a standard 3D scatterplot view enhanced with "bubbles," lines, text, and colors aimed at making comparisons between authors and topics found in the papers. Three components were developed to translate and display raw XML data using OpenGL and Cocoa. We use the visualization tool to perform five tasks and discuss it&#146;s weaknesses.
+Keywords: Information Visualization; OpenGL; bubbles; conference publications; dynamic query; evaluation; links; publications; references; scatterplot;
+Author: Tyman, J.; Gruetzmacher, G.P.; Stasko, J.
+
+Year: 2004
+Title: MonkEllipse: Visualizing the History of Information Visualization
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382942
+Abstract:  In this paper, we describe the process and result of creating a visualization to capture the past 10 years of history in the field of Information Visualization, as part of the annual InfoVis Conference Contest. We began with an XML file containing data provided by the contest organizers, scrubbed and augmented the data, and created a database to hold the information. We designed a visualization and implemented it using Flash MX 2004 Professional with ActionScript 2.0, PHP, and PostgreSQL. The resulting visualization provides an overview of the field of Information Visualization, and allows users to see the connections between areas of the field, particular researchers, and documents.
+Keywords: InfoVis conference; articles; contributors; document; history; information visualization; research areas; text; text arc;
+Author: Tzu-Wei Hsu; Inman, L.; McColgin, D.; Stamper, K.
+
+Year: 2004
+Title: Exploring InfoVis Publication History with Tulip
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382943
+Abstract:  We show the structure of the InfoVis publications dataset using Tulip, a scalable open-source visualization system for graphs and trees. Tulip supports interactive navigation and many options for layout. Subgraphs of the full dataset can be created interactively or using a wide set of algorithms based on graph theory and combinatorics, including several kinds of clustering. We found that convolution clustering and small world clustering were particularly effective at showing the structure of the InfoVis publications dataset, as was coloring by the Strahler metric.
+Keywords: "><meta name="citation_conference" content="Information Visualization, 2004. INFOVIS 2004. IEEE Symposium on
+Author: Delest, M.; Munzner, T.; Auber, D.; Domenger, J.-P.
+
+Year: 2004
+Title: Information Visualization Research: Citation and Co-Citation Highlights
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1382944
+Abstract:  An overview of the entry is given. The techniques used to prepare the InfoVis contest entry are outlined. The strengths and weaknesses are briefly discussed.
+Keywords: citation analysis; co-citation analysis; domain visualization;
+Author: Chaomei Chen
+
+Year: 2003
+Title: Exploding the frame: designing for wall-size computer displays
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249002
+Abstract: High-resolution wall-size digital displays present significant new and different visual space to show and see imagery. The author has been working with two wall-size digital displays at Princeton University for five years and directing and producing IMAX films for a decade, and he has noted some unique design considerations for creating effective visual images when they are spread across entire walls. The author suggests these "frameless" screens - where images are so large we need to look around to see the entire field - need different ways of thinking about image design and visualization. Presenting such things as scale and detail take on new meaning when they can be displayed life-size and not shown in the context of one or many small frames such as we see everywhere. These design ideas will be of use for pervasive computing, interface research and design, interactive design, control design, representations of massive data sets, and creating effective displays of data for research and education.
+Keywords: IMAX films;computer displays;control design;data displays;data set representations;display walls;frameless screens;graphic design;high-resolution displays;image design;image visualization;interactive design;interface design;interface research;pervasive computing;screens (display);tiled displays;visual images;visual interface;visual space;wall-size computer displays;wall-size digital displays;
+Author: Shedd, B.
+
+Year: 2003
+Title: Smooth and efficient zooming and panning
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249004
+Abstract: Large 2D information spaces, such as maps, images, or abstract visualizations, require views at various level of detail: close ups to inspect details, overviews to maintain (literally) an overview. Users often switch between these views. We discuss how smooth animations from one view to another can be defined. To this end, a metric on the effect of simultaneous zooming and panning is defined, based on an estimate of the perceived velocity. Optimal is defined as smooth and efficient. Given the metric, these terms can be translated into a computational model, which is used to calculate an analytic solution for optimal animations. The model has two free parameters: animation speed and zoom/pan trade off. A user experiment to find good values for these is described.
+Keywords: 2D information spaces;abstract visualization;animation speed;computational geometry;computational model;computer animation;data visualisation;graphical user interfaces;image processing;image visualization;inspection techniques;map visualization;navigation;optimal animations;panning;perceived velocity;scale space;scrolling;smooth animations;software engineering;user interfaces;zooming;
+Author: van Wijk, J.J.; Nuij, W.A.A.
+
+Year: 2003
+Title: A model of multi-scale perceptual organization in information graphics
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249005
+Abstract: We propose a new method for assessing the perceptual organization of information graphics, based on the premise that the visual structure of an image should match the structure of the data it is intended to convey. The core of our method is a new formal model of one type of perceptual structure, based on classical machine vision techniques for analyzing an image at multiple resolutions. The model takes as input an arbitrary grayscale image and returns a lattice structure describing the visual organization of the image. We show how this model captures several aspects of traditional design aesthetics, and we describe a software tool that implements the model to help designers analyze and refine visual displays. Our emphasis here is on demonstrating the model's potential as a design aid rather than as a description of human perception, but given its initial promise we propose a variety of ways in which the model could be extended and validated.
+Keywords: computer displays;computer vision;data visualisation;design aid;design methodology;formal model;graphical user interfaces;grayscale image;human perception;information graphics;lattice structure;machine vision;multiple resolutions;multiscale perceptual organization;perceptual structure;scale space;screen design;software psychology;software tool;software tools;user interfaces;user/machine systems;visual displays;visual organization;visual structure;
+Author: Wattenberg, M.; Fisher, D.
+
+Year: 2003
+Title: Exploring high-D spaces with multiform matrices and small multiples
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249006
+Abstract: We introduce an approach to visual analysis of multivariate data that integrates several methods from information visualization, exploratory data analysis (EDA), and geovisualization. The approach leverages the component-based architecture implemented in GeoVISTA Studio to construct a flexible, multiview, tightly (but generically) coordinated, EDA toolkit. This toolkit builds upon traditional ideas behind both small multiples and scatterplot matrices in three fundamental ways. First, we develop a general, multiform, bivariate matrix and a complementary multiform, bivariate small multiple plot in which different bivariate representation forms can be used in combination. We demonstrate the flexibility of this approach with matrices and small multiples that depict multivariate data through combinations of: scatterplots, bivariate maps, and space-filling displays. Second, we apply a measure of conditional entropy to (a) identify variables from a high-dimensional data set that are likely to display interesting relationships and (b) generate a default order of these variables in the matrix or small multiple display. Third, we add conditioning, a kind of dynamic query/filtering in which supplementary (undisplayed) variables are used to constrain the view onto variables that are displayed. Conditioning allows the effects of one or more well understood variables to be removed form the analysis, making relationships among remaining variables easier to explore. We illustrate the individual and combined functionality enabled by this approach through application to analysis of cancer diagnosis and mortality data and their associated covariates and risk factors.
+Keywords: EDA;GeoVISTA Studio;bivariate maps;bivariate matrix;bivariate representation;bivarite small multiple plot;cancer diagnosis;component-based architecture;conditional entropy;data analysis;data mining;data visualisation;default order;exploratory data analysis;geographic information systems;geovisualization;high-dimensional data set;high-dimensional space exploration;information visualization;medical diagnostic computing;mortality data;multiform matrices;multiple display;multivariate data;object-oriented programming;pattern recognition;risk factors;scatterplot matrices;scatterplot matrix;scatterplots;small multiples;space-filling displays;visual analysis;visual databases;
+Author: MacEachren, A.; Xiping, D.; Hardisty, F.; Diansheng Guo; Lengerich, G.
+
+Year: 2003
+Title: Design choices when architecting visualizations
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249007
+Abstract: In this paper, we focus on some of the key design decisions we faced during the process of architecting a visualization system and present some possible choices, with their associated advantages and disadvantages. We frame this discussion within the context of Rivet, our general visualization environment designed for rapidly prototyping interactive, exploratory visualization tools for analysis. As we designed increasingly sophisticated visualizations, we needed to refine Rivet in order to be able to create these richer displays for larger and more complex data sets. The design decisions we discuss in this paper include: the internal data model, data access, semantic meta-data information the visualization can use to create effective visual decodings, the need for data transformations in a visualization tool, modular objects for flexibility, and the tradeoff between simplicity and expressiveness when providing methods for creating visualizations.
+Keywords: Rivet;data access;data sets;data transformations;data visualisation;design tradeoffs;information systems;information visualization;internal data model;meta data;modular objects;semantic meta-data information;software architecture;system architecture;visual databases;visual decodings;visualization architecture;visualization system;visualization tool prototyping;
+Author: Tang, D.; Stolte, C.; Bosche, R.
+
+Year: 2003
+Title: Edgelens: an interactive method for managing edge congestion in graphs
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249008
+Abstract: An increasing number of tasks require people to explore, navigate and search extremely complex data sets visualized as graphs. Examples include electrical and telecommunication networks, Web structures, and airline routes. The problem is that graphs of these real world data sets have many interconnected nodes, ultimately leading to edge congestion: the density of edges is so great that they obscure nodes, individual edges, and even the visual information beneath the graph. To address this problem we developed an interactive technique called EdgeLens. An EdgeLens interactively curves graph edges away for a person's focus attention without changing the node positions. This opens up sufficient space to disambiguate node and edge relationships and to see underlying information while still preserving node layout. Initially two methods of creating this interaction were developed and compared in a user study. The results of this study were used in the selection of a basic approach and the subsequent development of the EdgeLens. We then improved the EdgeLens through use of transparency and colour and by allowing multiple lenses to appear on the graph.
+Keywords: Edgelens;Web structures;air traffic;airline routes;data sets;data visualisation;data visualization;distortion lens;electrical networks;graph edge congestion management;graph layout;graphs;graphs;individual edges;information visualization;interactive method;interactive visualization;interconnected nodes;navigation;telecommunication networks;visual information;
+Author: Wong, N.; Carpendale, S.; Greenberg, S.
+
+Year: 2003
+Title: MoireGraphs: radial focus+context visualization and interaction for graphs with visual nodes
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249009
+Abstract: Graph and tree visualization techniques enable interactive exploration of complex relations while communicating topology. However, most existing techniques have not been designed for situations where visual information such as images is also present at each node and must be displayed. This paper presents MoireGraphs to address this need. MoireGraphs combine a new focus+context radial graph layout with a suite of interaction techniques (focus strength changing, radial rotation, level highlighting, secondary foci, animated transitions and node information) to assist in the exploration of graphs with visual nodes. The method is scalable to hundreds of displayed visual nodes.
+Keywords: MoireGraphs;animated transitions;communicating topology;data visualisation;graph drawing;graphs;information visualization;level highlighting;node information;radial focus+context interaction;radial focus+context visualization;radial graph layout;radial rotation;tree visualization;trees (mathematics);visual information;visual nodes;
+Author: Jankun-Kelly, T.J.; Kwan-Liu Ma
+
+Year: 2003
+Title: Visualizing evolving networks: minimum spanning trees versus pathfinder networks
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249010
+Abstract: Network evolution is an ubiquitous phenomenon in a wide variety of complex systems. There is an increasing interest in statistically modeling the evolution of complex networks such as small-world networks and scale-free networks. In this article, we address a practical issue concerning the visualizations of co-citation networks of scientific publications derived by two widely known link reduction algorithms, namely minimum spanning trees (MSTs) and pathfinder networks (PFNETs). Our primary goal is to identify the strengths and weaknesses of the two methods in fulfilling the need for visualizing evolving networks. Two criteria are derived for assessing visualizations of evolving networks in terms of topological properties and dynamical properties. We examine the animated visualization models of the evolution of botulinum toxin research in terms of its co-citation structure across a 58-year span (1945-2002). The results suggest that although high-degree nodes dominate the structure of MST models, such structures can be inadequate in depicting the essence of how the network evolves because MST removes potentially significant links from high-order shortest paths. In contrast, PFNET models clearly demonstrate their superiority in maintaining the cohesiveness of some of the most pivotal paths, which in turn make the growth animation more predictable and interpretable. We suggest that the design of visualization and modeling tools for network evolution should take the cohesiveness of critical paths into account.
+Keywords: MST;PFNET;botulinum toxin research;citation analysis;cocitation networks;complex networks;data visualisation;dynamical properties;evolving network visualization;growth animation;high-degree nodes;link reduction algorithms;minimum spanning trees;network evolution;pathfinder networks;scale-free networks;scientific publications;shortest paths;small-world networks;solid modelling;topological properties;trees (mathematics);ubiquitous computing;visualization assessment;
+Author: Chaomei Chen; Morris, S.
+
+Year: 2003
+Title: A virtual workspace for hybrid multidimensional scaling algorithms
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249013
+Abstract: In visualising multidimensional data, it is well known that different types of algorithms to process them. Data sets might be distinguished according to volume, variable types and distribution, and each of these characteristics imposes constraints upon the choice of applicable algorithms for their visualization. Previous work has shown that a hybrid algorithmic approach can be successful in addressing the impact of data volume on the feasibility of multidimensional scaling (MDS). This suggests that hybrid combinations of appropriate algorithms might also successfully address other characteristics of data. This paper presents a system and framework in which a user can easily explore hybrid algorithms and the data flowing through them. Visual programming and a novel algorithmic architecture let the user semi-automatically define data flows and the co-ordination of multiple views.
+Keywords: HIVE;MDS;algorithmic architecture;computational complexity;computational complexity;data flows;data sets;data structures;data visualisation;data visualisation;data volume;hybrid algorithm;hybrid combinations;multidimensional data;multidimensional scaling;variable distribution;variable types;virtual workspace;visual programming;visual programming;
+Author: Ross, G.; Chalmers, M.
+
+Year: 2003
+Title: Dynamic visualization of transient data streams
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249014
+Abstract: We introduce two dynamic visualization techniques using multidimensional scaling to analyze transient data streams such as newswires and remote sensing imagery. While the time-sensitive nature of these data streams requires immediate attention in many applications, the unpredictable and unbounded characteristics of this information can potentially overwhelm many scaling algorithms that require a full re-computation for every update. We present an adaptive visualization technique based on data stratification to ingest stream information adaptively when influx rate exceeds processing rate. We also describe an incremental visualization technique based on data fusion to project new information directly onto a visualization subspace spanned by the singular vectors of the previously processed neighboring data. The ultimate goal is to leverage the value of legacy and new information and minimize re-processing of the entire dataset in full resolution. We demonstrate these dynamic visualization results using a newswire corpus and a remote sensing imagery sequence.
+Keywords: adaptive visualization;data fusion;data fusion-based visualization;data mining;data stratification;data stratification-based visualization;data visualisation;dynamic visualization;incremental visualization;multidimensional scaling;neighboring data;newswires;remote sensing;remote sensing imagery;sensor fusion;singular vectors;text visualization;transient data streams;visualization subspace;
+Author: Pak Chung Wong; Foote, H.; Adams, D.; Cowley, W.; Thomas, J.
+
+Year: 2003
+Title: Interactive hierarchical dimension ordering, spacing and filtering for exploration of high dimensional datasets
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249015
+Abstract: Large number of dimensions not only cause clutter in multi-dimensional visualizations, but also make it difficult for users to navigate the data space. Effective dimension management, such as dimension ordering, spacing and filtering, is critical for visual exploration of such datasets. Dimension ordering and spacing explicitly reveal dimension relationships in arrangement-sensitive multidimensional visualization techniques, such as parallel coordinates, star glyphs, and pixel-oriented techniques. They facilitate the visual discovery of patterns within the data. Dimension filtering hides some of the dimensions to reduce clutter while preserving the major information of the dataset. In this paper, we propose an interactive hierarchical dimension ordering, spacing and filtering approach, called DOSFA. DOSFA is based on dimension hierarchies derived from similarities among dimensions. It is scalable multi-resolution approach making dimensional management a tractable task. On the one hand, it automatically generates default settings for dimension ordering, spacing and filtering. On the other hand, it allows users to efficiently control all aspects of this dimension management process via visual interaction tools for dimension hierarchy manipulation. A case study visualizing a dataset containing over 200 dimensions reveals high dimensional visualization techniques.
+Keywords: DOSFA;data mining;data space navigation;data visualisation;dimension filtering;dimension hierarchies;dimension hierarchy manipulation;dimension management;dimension ordering;dimension spacing;dimensional management;graphical user interfaces;high dimensional dataset exploration;high dimensional datasets;interactive hierarchical dimensions;multidimensional visualization;multidimensional visualizations;parallel coordinates;pattern clustering;pixel-oriented techniques;star glyphs;visual exploration;visual interaction tools;
+Author: Jing Wang; Wei Peng; Ward, M.O.; Rundensteiner, E.A.
+
+Year: 2003
+Title: Mapping nominal values to numbers for effective visualization
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249016
+Abstract: Data sets with a large number of nominal variables, some with high cardinality, are becoming increasingly common and need to be explored. Unfortunately, most existing visual exploration displays are designed to handle numeric variables only. When importing data sets with nominal values into such visualization tools, most solutions to date are rather simplistic. Often, techniques that map nominal values to numbers do not assign order or spacing among the values in a manner that conveys semantic relationships. Moreover, displays designed for nominal variables usually cannot handle high cardinality variables well. This paper addresses the problem of how to display nominal variables in general-purpose visual exploration tools designed for numeric variables. Specifically, we investigate (1) how to assign order and spacing among the nominal values, and (2) how to reduce the number of distinct values to display. We propose that nominal variables be pre-processed using a distance-quantification-classing (DQC) approach before being imported into a visual exploration tool. In the distance step, we identify a set of independent dimensions that can be used to calculate the distance between nominal values. In the quantification step, we use the independent dimensions and the distance information to assign order and spacing among the nominal values. In the classing step, we use results from the previous steps to determine which values within a variable are similar to each other and thus can be grouped together. Each step in the DQC approach can be accomplished by a variety of techniques. We extended the XmdvTool package to incorporate this approach. We evaluated our approach on several data sets using a variety of evaluation measures.
+Keywords: DQC approach;XmdvTool package;classing step;clustering;correspondence analysis;data compression;data sets;data visualisation;data visualization;dimension reduction;distance step;distance-quantification-classing;mathematics computing;nominal data;nominal value mapping;nominal variables;norminal values;numeric variables;quantification step;software packages;visual exploration displays;visualization tools;
+Author: Rosario, G.E.; Rundensteiner, E.A.; Brown, D.C.; Ward, M.O.
+
+Year: 2003
+Title: Intelligently resolving point occlusion
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249018
+Abstract: Large and high-dimensional data sets mapped to low-dimensional visualizations often result in perceptual ambiguities. One such ambiguity is overlap or occlusion that occurs when the number of records exceeds the number of unique locations in the presentation or when there exist two or more records that map to the same location. To lessen the affect of occlusion, non-standard visual attributes (i.e. shading and/or transparency) are applied, or such records may be remapped to a corresponding jittered location. The resulting mapping efficiently portrays the crowding of records but fails to provide the insight into the relationship between the neighboring records. We introduce a new interactive technique that intelligibly organizes overlapped points, a neural network-based smart jittering algorithm. We demonstrate this technique on a scatter plot, the most widely used visualization. The algorithm can be applied to other one, two, and multi-dimensional visualizations which represent data as points, including 3-dimensional scatter plots, RadViz, polar coordinates.
+Keywords: RadViz;Smart Jittering algorithm;data density;data points;data sets;data visualisation;data visualization;graphical user interfaces;hidden feature removal;identifiable points;information visualization;jitter;learning (artificial intelligence);low-dimensional visualizations;multidimensional visualizations;neighboring records;neural nets;neural network;neural networks;nonstandard visual attributes;point occlusion;polar coordinates;scatter plot;shading;transparency;
+Author: Trutschl, M.; Grinstein, G.; Cvek, U.
+
+Year: 2003
+Title: Constant density displays using diversity sampling
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249019
+Abstract: The Informedia Digital Video Library user interface summarizes query results with a collage of representative keyframes. We present a user study in which keyframe occlusion caused difficulties. To use the screen space most efficiently to display images, both occlusion and wasted whitespace should be minimized. Thus optimal choices will tend toward constant density displays. However, previous constant density algorithms are based on global density, which leads to occlusion and empty space if the density is not uniform. We introduce an algorithm that considers the layout of individual objects and avoids occlusion altogether. Efficiency concerns are important for dynamic summaries of the Informedia Digital Video Library, which has hundreds of thousands of shots. Posting multiple queries that take into account parameters of the visualization as well as the original query reduces the amount of work required. This greedy algorithm is then compared to an optimal one. The approach is also applicable to visualizations containing complex graphical objects other than images, such as text, icons, or trees.
+Keywords: Informedia Digital Video Library;computer displays;constant density algorithms;constant density displays;data visualisation;diversity sampling;global density;graphical objects;graphical user interfaces;greedy algorithm;hidden feature removal;human factors;image display;information visualization;keyframe occlusion;query results;representative keyframes;user interface;
+Author: Derthick, M.; Christel, M.G.; Hauptmann, A.G.; Wactlar, H.D.
+
+Year: 2003
+Title: Empirical comparison of dynamic query sliders and brushing histograms
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249020
+Abstract: Dynamic queries facilitate rapid exploration of information by real-time visual display of both query formulation and results. Dynamic query sliders are linked to the main visualization to filter data. A common alternative to dynamic queries is to link several simple visualizations, such as histograms, to the main visualization with a brushing interaction strategy. Selecting data in the histograms highlights that data in the main visualization. We compare these two approaches in an empirical experiment on DataMaps, a geographic data visualization tool. Dynamic query sliders resulted in better performance for simple range tasks, while brushing histograms was better for complex trend evaluation and attribute relation tasks. Participants preferred brushing histograms for understanding relationships between attributes and the rich information they provided.
+Keywords: DataMaps;brushing histograms;brushing interaction;complex trend evaluation;data visualisation;dynamic queries;dynamic query sliders;filter data;geographic data visualization;graphical user interfaces;information exploration;information filters;information visualization;multidimensional visualization;query formulation;query formulation;real-time visual display;usability study;
+Author: Qing Li; North, C.
+
+Year: 2003
+Title: An experimental evaluation of continuous semantic zooming in program
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249021
+Abstract: This paper presents the results of an experiment aimed at investigating how different methods of viewing visual programs affect users' understanding. The first two methods used traditional flat and semantic zooming models of program representation; the third is a new representation that uses semantic zooming combined with blending and proximity. The results of several search tasks performed by approximately 80 participants showed that the new method resulted in both faster and more accurate searches than the other methods.
+Keywords: continuous semantic zooming;data visualisation;flat zooming;graphical user interfaces;human subjects testing;program representation;program visualisation;program visualization;reverse engineering;user understanding;visual program languages;visual programs;
+Author: Summers, K.L.; Goldsmith, T.E.; Kubica, S.; Caudell, T.P.
+
+Year: 2003
+Title: Conveying shape with texture: an experimental investigation of the impact of texture type on shape categorization judgments
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249022
+Abstract: As visualization researchers, we are interested in gaining a better understanding of how to effectively use texture to facilitate shape perception. If we could design the ideal texture pattern to apply to an arbitrary smoothly curving shape to be most accurately and effectively perceived, what would the characteristics of that texture pattern be? In this paper we describe the results of a comprehensive controlled observer experiment intended to yield insight into that question. Here, we report the results of a new study comparing the relative accuracy of observers' judgments of shape type (elliptical, cylindrical, hyperbolic or flat) and shape orientation (convex, concave, both, or neither) for local views of boundary masked quadric surface patches under six different principal direction texture pattern conditions plus two texture conditions (an isotropic pattern and a non-principal direction oriented anisotropic pattern), under both perspective and orthographic projection conditions and from both head-on and oblique viewpoints. Our results confirm the hypothesis that accurate shape perception is facilitated to a statistically significantly greater extent by some principal direction texture patterns than by others. Specifically, we found that, for both views, under conditions of perspective projection, participants more often correctly identified the shape category and the shape orientation when the surface was textured with the pattern that contained oriented energy along both the first and second principal directions only than in the case of any other texture condition. Patterns containing markings following only one of the principal directions, or containing information along other directions in addition to the principal directions yielded poorer performance overall.
+Keywords: anisotropic pattern;arbitrary smoothly curving shape;boundary masked quadric surface patches;concave;controlled observer experiment;convex;cylindrical shape;data visualisation;elliptical shape;experimental investigation;flat shape;head-on viewpoint;hyperbolic shape;image texture;isotropic pattern;nonprincipal direction;oblique viewpoint;observer judgments;oriented energy;orthographic projection conditions;perspective projection;principal direction texture pattern conditions;shape categorization judgments;shape category;shape conveyance;shape orientation;shape perception;shape type;texture type;visualization research;
+Author: Sunghee Kim; Hagh-Shenas, H.; Interrante, V.
+
+Year: 2003
+Title: Coordinated graph and scatter-plot views for the visual exploration of microarray time-series data
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249023
+Abstract: Microarrays are relatively new, high-throughput data acquisition technology for investigating biological phenomena at the micro-level. One of the more common procedures for microarray experimentation is that of the microarray time-course experiment. The product of microarray time-course experiment is time-series data, which subject to proper analysis has the potential to have significant impact on the diagnosis, treatment, and prevention of diseases. While existing information visualization techniques go some way to making microarray time-series data more manageable, requirements analysis has revealed significant limitations. The main finding was that users were unable to uncover and quantify common changes in value over a specified time-period. This paper describes a novel technique that provides this functionality by allowing the user to visually formulate and modify measurable queries with separate time-period and condition components. These visual queries are supported by the combination of a traditional value against time graph representation of the data with a complementary scatter-plot representation of a specified time-period. The multiple views of the visualization are coordinated so that the user can formulate and modify queries with rapid reversible display of query results in the traditional value against time graph format.
+Keywords: bioinformatics;biological phenomena investigation;data acquisition;data acquisition;data visualisation;disease diagnosis;disease prevention;disease treatment;graph view;information visualization techniques;microarray experimentation;microarray time-course experiment;microarray time-series data;microarrays;multiple views;query formulation;requirements analysis;scatter-plot view;time graph data representation;time series;user interfaces;visual exploration;visual queries;
+Author: Craig, P.; Kennedy, J.
+
+Year: 2003
+Title: Compound brushing [dynamic data visualization]
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249024
+Abstract: This paper proposes a conceptual model called compound brushing for modeling the brushing techniques used in dynamic data visualization. In this approach, brushing techniques are modeled as higraphs with five types of basic entities: data, selection, device, renderer, and transformation. Using this model, a flexible visual programming tool is designed not only to configure/control various common types of brushing techniques currently used in dynamic data visualization, but also to investigate new brushing techniques.
+Keywords: brushing techniques;compound brushing;data visualisation;device;dynamic data visualization;dynamic graphics;dynamic query;graphical user interfaces;higraphs;renderer;selection;transformation;visual programming;visual programming tool;
+Author: Hong Chen
+
+Year: 2003
+Title: Causality visualization using animated growing polygons
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249025
+Abstract: We present Growing Polygons, a novel visualization technique for the graphical representation of causal relations and information flow in a system of interacting processes. Using this method, individual processes are displayed as partitioned polygons with color-coded segments showing dependencies to other processes. The entire visualization is also animated to communicate the dynamic execution of the system to the user. The results from a comparative user study of the method show that the Growing Polygons technique is significantly more efficient than the traditional Hasse diagram visualization for analysis tasks related to deducing information flow in a system for both small and large executions. Furthermore, our findings indicate that the correctness when solving causality tasks is significantly improved using our method. In addition, the subjective ratings of the users rank the method as superior in all regards, including usability, efficiency, and enjoyability.
+Keywords: Hasse diagram visualization;animated growing polygons;causal relations;causality visualization;color coded segments;computer animation;concurrent engineering;data visualisation;dynamic execution;graphical representation;graphical user interfaces;information flow;information visualization;interactive animation;interactive systems;partitioned polygons;software engineering;subjective user ratings;
+Author: Elmqvist, N.; Tsigas, P.
+
+Year: 2003
+Title: Visualization of large-scale customer satisfaction surveys using a parallel coordinate tree
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249026
+Abstract: Satisfaction surveys are an important measurement tool in fields such as market research or human resources management. Serious studies consist of numerous questions and contain answers from large population samples. Aggregation on both sides, the questions asked as well as the answers received, turns the multidimensional problem into a complex system of interleaved hierarchies. Traditional ways of presenting the results are limited to one-dimensional charts and cross-tables. We developed a visualization method called the Parallel Coordinate Tree that combines multidimensional analysis with a tree structure representation. Distortion-oriented focus+context techniques are used to facilitate interaction with the visualization. In this paper we present a design study of a commercial application that we built, using this method to analyze and communicate results from large-scale customer satisfaction surveys.
+Keywords: customer satisfaction;customer satisfaction surveys;data visualisation;data visualization;distortion-oriented focus+context techniques;graphical user interfaces;human factors;human resources management;market research;marketing data processing;measurement tool;multidimensional analysis;multidimensional systems;parallel coordinate tree;parallel programming;tree data structures;tree structure representation;
+Author: Brodbeck, D.; Girardin, L.
+
+Year: 2003
+Title: FundExplorer: supporting the diversification of mutual fund portfolios using context treemaps
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249027
+Abstract: An equity mutual fund is a financial instrument that invests in a set of stocks. Any two different funds may partially invest in some of the same stocks, thus overlap is common. Portfolio diversification aims at spreading an investment over many different stocks in search of greater returns. Helping people with portfolio diversification is challenging because it requires informing them about both their current portfolio of stocks held through funds and the other stocks in the market not invested in yet. Current stock/fund visualization systems either waste screen real estate and visualization of all data points. We have developed a system called FundExplorer that implements a distorted treemap to visualize both the amount of money invested in a person's fund portfolio and the context of remaining market stocks. The FundExplorer system enables people to interactively explore diversification possibilities with their portfolios.
+Keywords: FundExplorer;context treemaps;data visualisation;distorted treemap;diversification support;equity mutual fund;financial data;financial data processing;financial instrument;fund visualization systems;information visualization;investment;investment visualization;mutual fund portfolios;portfolio diversification;stock market;stock markets;stock visualization systems;stocks investment;tree data structures;
+Author: Csallner, C.; Handte, M.; Lehmann, O.; Stasko, J.
+
+Year: 2003
+Title: Thread Arcs: an email thread visualization
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249028
+Abstract: This paper describes Thread Arcs, a novel interactive visualization technique designed to help people use threads found in email. Thread Arcs combine the chronology of messages with the branching tree structure of a conversational thread in a mixed-model visualization by Venolia and Neustaedter (2003) that is stable and compact. By quickly scanning and interacting with Thread Arcs, people can see various attributes of conversations and find relevant messages in them easily. We tested this technique against other visualization techniques with users' own email in a functional prototype email client. Thread Arcs proved an excellent match for the types of threads found in users' email for the qualities users wanted in small-scale visualizations.
+Keywords: Thread Arcs;branching tree structure;conversational thread;data visualisation;electronic mail;electronic mail;email client;email thread visualization;graphical user interfaces;information visualization;interactive visualization;message chronology;mixed-model visualization;tree data structures;user interfaces;
+Author: Kerr, B.
+
+Year: 2003
+Title: Using multilevel call matrices in large software projects
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249030
+Abstract: Traditionally, node link diagrams are the prime choice when it comes to visualizing software architectures. However, node link diagrams often fall short when used to visualize large graph structures. In this paper we investigate the use of call matrices as visual aids in the management of large software projects. We argue that call matrices have a number of advantages over traditional node link diagrams when the main object of interest is the link instead of the node. Matrix visualizations can provide stable and crisp layouts of large graphs and are inherently well suited for large multilevel visualizations because of their recursive structure. We discuss a number of visualization issues, using a very large software project currently under development at Philips Medical Systems as a running example.
+Keywords: Philips Medical Systems;data visualisation;graph structures;graphical user interfaces;large software projects;matrix visualizations;medical information systems;multilevel call matrices;multilevel visualizations;node link diagrams;program visualisation;recursive structure;screens (display);software architecture;software architecture;software visualization;visual aids;
+Author: van Ham, F.
+
+Year: 2003
+Title: Between aesthetics and utility: designing ambient information visualizations
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1249031
+Abstract: Unlike traditional information visualization, ambient information visualizations reside in the environment of the user rather than on the screen of a desktop computer. Currently, most dynamic information that is displayed in public places consists of text and numbers. We argue that information visualization can be employed to make such dynamic data more useful and appealing. However, visualizations intended for non-desktop spaces will have to both provide valuable information and present an attractive addition to the environment - they must strike a balance between aesthetical appeal and usefulness. To explore this, we designed a real-time visualization of bus departure times and deployed it in a public space, with about 300 potential users. To make the presentation more visually appealing, we took inspiration from a modern abstract artist. The visualization was designed in two passes. First, we did a preliminary version that was presented to and discussed with prospective users. Based on their input, we did a final design. We discuss the lessons learned in designing this and previous ambient information visualizations, including how visual art can be used as a design constraint, and how the choice of information and the placement of the display affect the visualization.
+Keywords: aesthetics;ambient displays;ambient information visualizations;art;bus departure times;calm technology;computer displays;data visualisation;design constraint;dynamic information;information use;information visualization;informative art;large screen displays;modern abstract artist;multimedia systems;nondesktop spaces;real-time visualization;valuable information;vehicles;visual art;
+Author: Skog, T.; Ljungblad, S.; Holmquist, L.E.
+
+Year: 2002
+Title: Internet traffic: visualization, discovery, and very large displays
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173140
+Abstract:  For a decade, the ruling common wisdom for Internet traffic held that it was everywhere bursty: over periods lasting tens of milliseconds to hundreds, the traffic was either much below its average rate or much above. In other words, the traffic was not smooth, not staying at all times close to its average. It was bursty on the cable running down a street, carrying the merged traffic of a small number of cable modem users in one section of a town. It was bursty on the core fiber of an Internet service provider, carrying the merged traffic of thousands of users from all over the country. The Internet was designed to accommodate the bursty traffic. The routers and switches that forward traffic from one place to the next were designed for burstiness, and Internet service providers allocated traffic loads on the devices based on an assumption of burstiness. Recently, it was discovered that the old common wisdom is not true. Visualization played a fundamental role in the discovery. The old wisdom held up for links with a small numbers of users. But as the number of users increases, the burstiness dissipates, and the traffic becomes smooth. Design of the high-load part of the Internet needs to be rethought. The old wisdom had persisted for high-load links because the databases of traffic measurements from them are immense, and the traffic measurements had not been studied in their fullest detail, which is necessary to see the smoothing. Visualization tools allowed the detail to be seen, and allowed the verification of a mathematical theory that predicts the smoothing. To see the detail, individual visual displays were created that take up an amount of virtual screen real estate measured in hundreds of pages. It is a simple idea: if you have a lot of data, and you want to see it in detail, you need a lot of space. What is needed now is a rich set of ideas and methods for navigating such very large displays.
+Keywords: Internet; Internet traffic; data mining; data visualisation; individual visual displays; telecommunication traffic recording; traffic measurements; very large displays; visualization tools;
+Author: Cleveland, W.S.
+
+Year: 2002
+Title: Multiscale visualization using data cubes
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173141
+Abstract:  Most analysts start with an overview of the data before gradually refining their view to be more focused and detailed. Multiscale pan-and-zoom systems are effective because they directly support this approach. However generating abstract overviews of large data sets is difficult, and most systems take advantage of only one type of abstraction: visual abstraction. Furthermore, these existing systems limit the analyst to a single zooming path on their data and thus a single set of abstract views. This paper presents: (1) a formalism for describing multiscale visualizations of data cubes with both data and visual abstraction, and (2) a method for independently zooming along one or more dimensions by traversing a zoom graph with nodes at different levels of detail. As an example of how to design multiscale visualizations using our system, we describe four design patterns using our formalism. These design patterns show the effectiveness of multiscale visualization of general relational databases.
+Keywords: data cubes; data structures; data visualisation; large data sets; multiscale pan-and-zoom systems; multiscale visualizations; relational databases; relational databases; visual abstraction; zoom graph;
+Author: Stolte, C.; Tang, D.; Hanrahan, P.
+
+Year: 2002
+Title: Visualization schemas for flexible information visualization
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173142
+Abstract:  Relational databases provide significant flexibility to organize, store, and manipulate an infinite variety of complex data collections. This flexibility is enabled by the concept of relational data schemas, which allow data owners to easily design custom databases according to their unique needs. However, user interfaces and information visualizations for accessing and utilizing databases have not kept pace with this level of flexibility. This paper introduces the concept of visualization schemas, based on the Snap-Together Visualization model, which are analogous to relational data schemas. Visualization schemas enable users to rapidly construct customized multiple-view visualizations for databases in a similarly flexible fashion without programming. Since the design of appropriate visualizations for a given database depends on the data schema, visualization schemas are a natural analogy to the data schema concept.
+Keywords: Snap-Together Visualization model; complex data collections; customized multiple-view visualizations; data visualisation; flexible information visualization; relational data schemas; relational databases; relational databases; user interfaces; user interfaces; visualization schemas;
+Author: North, C.; Conklin, N.; Saini, V.
+
+Year: 2002
+Title: Building a visual database for example-based graphics generation
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173143
+Abstract:  Example-based graphics generation systems automatically create new information visualizations by learning from existing graphic examples. As part of the effort on developing a general-purpose example-based generation system, we are building a visual database of graphic examples. In this paper, we address two main issues involved in constructing such a database: example selection and example modeling. As a result, our work offers three unique contributions: First, we build a visual database that contains a diverse collection of well-designed examples. Second, we develop a feature-based scheme to model all examples uniformly and accurately. Third, our visual database brings several important implications to the area of information visualization.
+Keywords: data visualisation; example-based graphics generation; feature-based scheme; information visualizations; learning by example; learning from examples; visual database; visual databases;
+Author: Zhou, M.X.; Min Chen; Ying Feng
+
+Year: 2002
+Title: Efficient cartogram generation: a comparison
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173144
+Abstract:  Cartograms are a well-known technique for showing geography-related statistical information, such as population demographics and epidemiological data. The basic idea is to distort a map by resizing its regions according to a statistical parameter, but in a way that keeps the map recognizable. We deal with the problem of making continuous cartograms that strictly retain the topology of the input mesh. We compare two algorithms to solve the continuous cartogram problem. The first one uses an iterative relocation of the vertices based on scanlines. The second one is based on the Gridfit technique, which uses pixel-based distortion based on a quadtree-like data structure.
+Keywords: Gridfit technique; cartogram generation; cartography; data visualisation; epidemiological data; geography; geography-related statistical information; map deformation problem; pixel-based distortion; population demographics; quadtree-like data structure; quadtrees; scanlines; statistical parameter; topology;
+Author: Keim, D.A.; North, S.C.; Panse, C.; Schneidewind, J.
+
+Year: 2002
+Title: Visualizing data with bounded uncertainty
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173145
+Abstract:  Visualization is a powerful way to facilitate data analysis, but it is crucial that visualization systems explicitly convey the presence, nature, and degree of uncertainty to users. Otherwise, there is a danger that data will be falsely interpreted, potentially leading to inaccurate conclusions. A common method for denoting uncertainty is to use error bars or similar techniques designed to convey the degree of statistical uncertainty. While uncertainty can often be modeled statistically, a second form of uncertainty, bounded uncertainty, can also arise that has very different properties than statistical uncertainty. Error bars should not be used for bounded uncertainty because they do not convey the correct properties, so a different technique should be used instead. We describe a technique for conveying bounded uncertainty in visualizations and show how it can be applied systematically to common displays of abstract charts and graphs. Interestingly, it is not always possible to show the exact degree of uncertainty, and in some cases it can only be displayed approximately.
+Keywords: abstract charts; bounded uncertainty; data analysis; data analysis; data integrity; data visualisation; data visualization; displays; error bars; graphs; graphs; statistical uncertainty;
+Author: Olston, C.; Mackinlay, J.D.
+
+Year: 2002
+Title: Graphical encoding for information visualization: an empirical study
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173146
+Abstract:  Research in several areas provides scientific guidance for use of graphical encoding to convey information in an information visualization display. By graphical encoding we mean the use of visual display elements such as icon color, shape, size, or position to convey information about objects represented by the icons. Literature offers inconclusive and often conflicting viewpoints, including the suggestion that the effectiveness of a graphical encoding depends on the type of data represented. Our empirical study suggests that the nature of the users' perceptual task is more indicative of the effectiveness of a graphical encoding than the type of data represented.
+Keywords: data representation; data visualisation; graphical encoding; graphical user interfaces; graphical user interfaces; icon color; icon shape; icon size; information visualization; psychology; psychology; psychophysics; user interfaces; user perceptual task; visual display elements;
+Author: Nowell, L.; Schulman, R.; Hix, D.
+
+Year: 2002
+Title: The illusion of perceived metric 3D structure
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173147
+Abstract:  A large body of results on the characteristics of human spatial vision suggests that space perception is distorted. Recent studies indicate that the geometry of visual space is best understood as Affine. If this is the case, it has far reaching implications on how 3D visualizations can be successfully employed. For instance, all attempts to build visualization systems where users are expected to discover relations based on Euclidean distances or shapes will be ineffective. Because visualization can, and sometimes do, employ all possible types of depth information and because the results from vision research usually concentrates on one or two such types, three experiments were performed under near optimal viewing conditions. The aim of the experiments was twofold: To test whether the earlier findings generalize to optimal viewing conditions and to get a sense of the size of the error under such conditions. The results show that the findings do generalize and that the errors are large. The implications of these results for successful visualizations are discussed.
+Keywords: 3D visualizations; Euclidean distances; affine geometry; data visualisation; depth information; experiments; human factors; human spatial vision; illusion; near optimal viewing conditions; perceived metric 3D structure; shapes; solid modelling; space perception; three dimensional visualizations; user interfaces; visual perception;
+Author: Lind, M.; Bingham, G.P.; Forser, C.
+
+Year: 2002
+Title: SpaceTree: supporting exploration in large node link tree, design evolution and empirical evaluation
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173148
+Abstract:  We present a novel tree browser that builds on the conventional node link tree diagrams. It adds dynamic rescaling of branches of the tree to best fit the available screen space, optimized camera movement, and the use of preview icons summarizing the topology of the branches that cannot be expanded. In addition, it includes integrated search and filter functions. This paper reflects on the evolution of the design and highlights the principles that emerged from it. A controlled experiment showed benefits for navigation to already previously visited nodes and estimation of overall tree topology.
+Keywords: SpaceTree; data visualisation; data visualization; design evolution; diagrams; dynamic rescaling; experiment; filter functions; graphical user interfaces; icons; integrated search; large node link tree exploration; node link tree diagrams; novel tree browser; optimized camera movement; topology; tree data structures;
+Author: Plaisant, C.; Grosjean, J.; Bederson, B.B.
+
+Year: 2002
+Title: Process visualization with levels of detail
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173149
+Abstract:  We demonstrate how we apply information visualization techniques to process monitoring. Virtual instruments are enhanced using history encoding instruments are capable of displaying the current value and the value from the near past. Multi-instruments are capable of displaying several data sources simultaneously. Levels of detail for virtual instruments are introduced where the screen area is inversely proportional to the information amount displayed. Furthermore the monitoring system is enhanced by using: 3D anchoring attachment of instruments to positions on a 3D model, collision avoidance a physically based spring model prevents instruments from overlapping, and focus+context rendering - giving the user a possibility to examine particular instruments in detail without loosing the context information.
+Keywords: 3D anchoring; 3D model; collision avoidance; data source display; data visualisation; history encoding; information visualization techniques; levels of detail; process monitoring; process visualization; rendering; rendering (computer graphics); solid modelling; spring model; user interfaces; virtual instruments;
+Author: Matkovic, K.; Hauser, H.; Sainitzer, R.; Groller, M.E.
+
+Year: 2002
+Title: Case study: visualizing sets of evolutionary trees
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173150
+Abstract:  We describe a visualization tool which allows a biologist to explore a large set of hypothetical evolutionary trees. Interacting with such a dataset allows the biologist to identify distinct hypotheses about how different species or organisms evolved, which would not have been clear from traditional analyses. Our system integrates a point-set visualization of the distribution of hypothetical trees with detail views of an individual tree, or of a consensus tree summarizing a subset of trees. Efficient algorithms were required for the key tasks of computing distances between trees, finding consensus trees, and laying out the point-set visualization.
+Keywords: biology; biology computing; case study; consensus tree; data visualisation; dataset; evolutionary tree visualization; evolutionary trees; organisms; point-set visualization; species; tree data structures; user interfaces; visual interface;
+Author: Amenta, N.; Klingner, J.
+
+Year: 2002
+Title: InterRing: an interactive tool for visually navigating and manipulating hierarchical structures
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173151
+Abstract:  Radial, space-filling (RSF) techniques for hierarchy visualization have several advantages over traditional node-link diagrams, including the ability to efficiently use the display space while effectively conveying the hierarchy structure. Several RSF systems and tools have been developed to date, each with varying degrees of support for interactive operations such as selection and navigation. We describe what we believe to be a complete set of desirable operations on hierarchical structures. We then present InterRing, an RSF hierarchy visualization system that supports a significantly more extensive set of these operations than prior systems. In particular, InterRing supports multi-focus distortions, interactive hierarchy reconfiguration, and both semi-automated and manual selection. We show the power and utility of these and other operations, and describe our on-going efforts to evaluate their effectiveness and usability.
+Keywords: InterRing; data visualisation; diagrams; hierarchical data structures; hierarchical structure navigation; hierarchy visualization; interactive hierarchy reconfiguration; interactive tool; multi-focus distortions; node-link diagrams; radial space-filling techniques; tree data structures; usability; user interfaces;
+Author: Jing Yang; Ward, M.O.; Rundensteiner, E.A.
+
+Year: 2002
+Title: A space-optimized tree visualization
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173152
+Abstract:  We describe a new method for the visualization of tree structured relational data. It can be used especially for the display of very large hierarchies in a 2-dimensional space. We discuss the advantages and limitations of current techniques of tree visualization. Our strategy is to optimize the drawing of trees in a geometrical plane and maximize the utilization of display space by allowing more nodes and links to be displayed at a limit screen resolution. We use the concept of enclosure to partition the entire display space into a collection of local regions that are assigned to all nodes in tree T for the display of their sub-trees and themselves. To enable the exploration of large hierarchies, we use a modified semantic zooming technique to view the detail of a particular part of the hierarchy at a time based on user's interest. Layout animation is also provided to preserve the mental map while the user is exploring the hierarchy by changing zoomed views.
+Keywords: data visualisation; diagrams; layout animation; mental map; screen resolution; semantic zooming technique; space-optimized tree visualization; tree data structures; tree drawing; tree structured relational data visualization; trees (mathematics); two dimensional space; user interfaces; very large hierarchies; zoomed views;
+Author: Quang Vinh Nguyen; Mao Lin Huang
+
+Year: 2002
+Title: Beamtrees: compact visualization of large hierarchies
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173153
+Abstract:  Beamtrees are a new method for the visualization of large hierarchical data sets. Nodes are shown as stacked circular beams, such that both the hierarchical structure as well as the size of nodes are depicted. The dimensions of beams are calculated using a variation of the treemap algorithm. A small user study indicated that beamtrees are significantly more effective than nested treemaps and cushion treemaps for the extraction of global hierarchical information.
+Keywords: Beamtrees; cushion treemaps; data visualisation; data visualization; diagrams; diagrams; large hierarchical data sets; large hierarchy compact visualization; nested treemaps; nodes; stacked circular beams; tree data structures; treemap algorithm; trees (mathematics); user interfaces; user study;
+Author: van Ham, F.; van Wijk, J.J.
+
+Year: 2002
+Title: Visualizing biosequence data using texture mapping
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173154
+Abstract:  Data-mining of information by the process of pattern discovery in protein sequences has been predominantly algorithm based. We discuss a visualization approach, which uses texture mapping and blending techniques to perform visual data-mining on text data obtained from discovering patterns in protein sequences. This visual approach, investigates the possibilities of representing text data in three dimensions and provides new possibilities of representing more dimensions of information in text data visualization and analysis. We also present a generic framework derived from this visualization approach to visualize text in biosequence data.
+Keywords: biology computing; biosequence data visualization; blending; data analysis; data analysis; data mining; data mining; data visualisation; image texture; pattern discovery; protein sequences; rendering; rendering (computer graphics); text data visualization; texture mapping;
+Author: Thiagarajan, P.R.; Gao, G.R.
+
+Year: 2002
+Title: Arc diagrams: visualizing structure in strings
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173155
+Abstract:  This paper introduces a new visualization method, the arc diagram, which is capable of representing complex patterns of repetition in string data. Arc diagrams improve over previous methods such as dotplots because they scale efficiently for strings that contain many instances of the same subsequence. This paper describes design and implementation issues related to arc diagrams and shows how they may be applied to visualize such diverse data as music, text, and compiled code.
+Keywords: arc diagrams; compiled code; data visualisation; string data; structure visualization;
+Author: Wattenberg, M.
+
+Year: 2002
+Title: Interactive information visualization of a million items
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173156
+Abstract:  Existing information visualization techniques are usually limited to the display of a few thousand items. This article describes new interactive techniques capable of handling a million items (effectively visible and manageable on screen). We evaluate the use of hardware-based techniques available with newer graphics cards, as well as new animation techniques and non-standard graphical features such as stereovision and overlap count. These techniques have been applied to two popular information visualizations: treemaps and scatter plot diagrams; but are generic enough to be applied to other 2D representations as well.
+Keywords: animation techniques; computer animation; data visualisation; graphics cards; hardware-based techniques; interactive information visualization; interactive systems; interpolation; overlap count; scatter plot diagrams; stereovision; treemaps;
+Author: Fekete, J.-D.; Plaisant, C.
+
+Year: 2002
+Title: Angular brushing of extended parallel coordinates
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173157
+Abstract:  In this paper we present angular brushing for parallel coordinates (PC) as a new approach to highlighting rational data-properties, i.e., features which - in a non-separable way - depend on two data dimensions. We also demonstrate smooth brushing as an intuitive tool for specifying nonbinary degree-of-interest functions (for focus+context visualization). We also briefly describe our implementation as well as its application to the visualization of CFD data.
+Keywords: CFD data visualization; angular brushing; data dimensions; data visualisation; extended parallel coordinates; rational data-properties;
+Author: Hauser, H.; Ledermann, F.; Doleisch, H.
+
+Year: 2002
+Title: Multiple foci drill-down through tuple and attribute aggregation polyarchies in tabular data
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173158
+Abstract:  Information analysis often involves decomposing data into sub-groups to allow for comparison and identification of relationships. Breakdown Visualization provides a mechanism to support this analysis through user guided drill-down of polyarchical metadata. This metadata describes multiple hierarchical structures for organizing tuple aggregations and table attributes. This structure is seen in financial data, organizational structures, sport statistics, and other domains. A spreadsheet format enables comparison of visualizations at any level of the hierarchy. Breakdown Visualization allows users to drill-down a single hierarchy then pivot into another hierarchy within the same view. It utilizes a fix and move technique that allows users to select multiple foci for drill-down.
+Keywords: attribute aggregation polyarchies; data visualisation; data visualization; multiple foci drill-down; multiple hierarchical structures; polyarchical metadata; sport statistics; spreadsheet format; table attributes; tabular data; tuple aggregation polyarchies;
+Author: Conklin, N.; Prabhakar, S.; North, C.
+
+Year: 2002
+Title: ACE: a fast multiscale eigenvectors computation for drawing huge graphs
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173159
+Abstract:  We present an extremely fast graph drawing algorithm for very large graphs, which we term ACE (for Algebraic multigrid Computation of Eigenvectors). ACE exhibits an improvement of something like two orders of magnitude over the fastest algorithms we are aware of; it draws graphs of millions of nodes in less than a minute. ACE finds an optimal drawing by minimizing a quadratic energy function. The minimization problem is expressed as a generalized eigenvalue problem, which is rapidly solved using a novel algebraic multigrid technique. The same generalized eigenvalue problem seems to come up also in other fields, hence ACE appears to be applicable outside of graph drawing too.
+Keywords: ACE; algebraic multigrid computation of eigenvectors; algebraic multigrid technique; data visualisation; eigenvalue problem; eigenvalues and eigenfunctions; fast multiscale eigenvectors computation; graph drawing algorithm; interpolation; minimisation; quadratic energy function;
+Author: Yehuda Koren; Carmel, L.; Harel, D.
+
+Year: 2002
+Title: Visual unrolling of network evolution and the analysis of dynamic discourse
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173160
+Abstract:  A new method for visualizing the class of incrementally evolving networks is presented. In addition to the intermediate states of the network it conveys the nature of the change between them by unrolling the dynamics of the network. Each modification is shown in a separate layer of a three-dimensional representation, where the stack of layers corresponds to a time line of the evolution. We focus on discourse networks as the driving application, but our method extends to any type of network evolving in similar ways.
+Keywords: data visualisation; discourse networks; dynamic discourse; network evolution; visual unrolling;
+Author: Brandes, U.; Corman, S.R.
+
+Year: 2002
+Title: A hybrid layout algorithm for sub-quadratic multidimensional scaling
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173161
+Abstract: Many clustering and layout techniques have been used for structuring and visualising complex data. This paper is inspired by a number of such contemporary techniques and presents a novel hybrid approach based upon stochastic sampling, interpolation and spring models. We use Chalmers' 1996 O(N<sup>2</sup>) spring model as a benchmark when evaluating our technique, comparing layout quality and run times using data sets of synthetic and real data. Our algorithm runs in O(N&radic;N) and executes significantly faster than Chalmers' 1996 algorithm, whilst producing superior layouts. In reducing complexity and run time, we allow the visualisation of data sets of previously infeasible size. Our results indicate that our method is a solid foundation for interactive and visual exploration of data.
+Keywords: clustering techniques; complex data visualisation; complexity; computational complexity; data visualisation; hybrid layout algorithm; interpolation; interpolation; layout quality; stochastic sampling; sub-quadratic multidimensional scaling;
+Author: Morrison, A.; Ross, G.; Chalmers, M.
+
+Year: 2002
+Title: Demystifying venture capital investing
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173162
+Abstract:  Since the crash of the dot.coms, investors have gotten a lot more careful with where they place their money. Now more than ever it becomes really important for venture capitalists (VCs) to monitor the state of the startups market and continually update their investment strategy to suit the rapidly changing market conditions. This paper presents three new visualization metaphors (Spiral Map, TimeTicker, and Double Histogram) for monitoring the startups market. While we are focusing on the VC domain, the visual metaphors developed are general and can be easily applied to other domains.
+Keywords: Double Histogram; Spiral Map; TimeTicker; data visualisation; financial data processing; investment; venture capital investing demystifying; venture capitalists; visualization metaphors;
+Author: Mei Chuah
+
+Year: 2002
+Title: Visual path analysis
+Link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173163
+Abstract:  We describe a system for analyzing the flow of traffic through Web sites. We decomposed the general path analysis problem into a set of distinct subproblems, and created a visual metaphor for analyzing each of them. Our system works off of multiple representations of the clickstream, and exposes the path extraction algorithms and data to the visual metaphors as Web services. We have combined the visual metaphors into a Web-based "path analysis portal" that lets the user easily switch between the different modes of analysis.
+Keywords: Web services; Web site traffic flow analysis; Web sites; clickstream; data analysis; data visualisation; data visualisation; path analysis portal; path extraction algorithms; portals; visual metaphor; visual path analysis;
+Author: Keahey, T.A.; Eick, S.G.
+
