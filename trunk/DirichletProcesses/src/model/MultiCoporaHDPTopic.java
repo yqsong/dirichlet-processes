@@ -5,8 +5,6 @@
  */
 package model;
 
-import index.PrepareBankCorpora;
-
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -1064,63 +1062,44 @@ public class MultiCoporaHDPTopic{
 	
 	// test
 	public static void main(String[] args){
-//		String luceneSrc = "D:\\Research\\DataSets\\LuceneIndexDataSets\\BankBR\\";
-//		File stopwordFile = new File("D:\\Research\\DataSets\\BankBR\\BankStopWords.txt");
-//		String luceneSrc = "F:\\ZJW\\DataSet\\LuceneIndexDataSets\\BankBR\\";
-//		File stopwordFile = new File("F:\\ZJW\\DataSet\\BankBR\\BankStopWords.txt");
-		String luceneSrc = "C:\\data_test\\cobra_bank\\text_index\\";
-		File stopwordFile = new File("C:\\data_test\\cobra_bank\\stopwords.txt");
-		
-		String queryStr = "*:*";
-//			String queryStr = "queryName:AIG";
-//			String queryStr = "queryName:AIG" + " AND docType:news";
-//			String queryStr = "docType:" + "blog";
-//			String queryStr = "docType:" + "news";
-//			String queryStr = "docType:" + "message_board";
-//			String queryStr = "newsgroup:" + categories[0]
-//			    + " OR " + "newsgroup:" + categories[1];
-			
-		PrepareBankCorpora	prepareData = new PrepareBankCorpora();
-			
-		DocCorpora docCorpora = prepareData.initializeData (luceneSrc, queryStr, false, 0.05, 1, stopwordFile);
-		
-		double b0 = 0.1;
-		double xi = 5.0, gamma = 5.0, alpha = 1.0;
-		double xi_a = 5.0, xi_b = 1.0;
-		double gamma_a = 5.0, gamma_b = 1.0;
-		double alpha_a = 5.0, alpha_b = 1.0;
-		
-		int maxIter = 20, burnin = 10;
-		int initK = 5;
-		int loglevel = 3;
-		MultiCoporaHDPTopic multHdpTopic = new MultiCoporaHDPTopic(
-				docCorpora
-				, b0
-//				, xi, gamma, alpha //if sampling hyper, comment this line and uncomment following 3 lines, vice versa
-				, xi_a, xi_b
-				, gamma_a, gamma_b
-				, alpha_a, alpha_b
-				, maxIter
-				, burnin);
-		multHdpTopic.Initialize(initK);
-		multHdpTopic.setLogLevel(loglevel);
-		multHdpTopic.Sampling();
-		CorporaTopicPostInfo topicInfo = new CorporaTopicPostInfo(
-				docCorpora.dictionary
-				, docCorpora.forwardHash
-				, docCorpora.backwardHash
-				, docCorpora.ftSequences
-				, multHdpTopic.Z
-				, null
-				, null
-				, null);
-		int topN = 40;
-		String msg = topicInfo.PrintTopicsKeywords(topN);
-		for(int j = 0; j < docCorpora.corporaNumber; j++){
-			msg += "\n corpus " + j + ": " + docCorpora.getTypeStr(j) + "---------------------------\n";
-			msg += topicInfo.getLocalInfo(j).PrintTopicsKeywords(topN);
-		}
-		System.out.println(msg);
+
+//		double b0 = 0.1;
+//		double xi = 5.0, gamma = 5.0, alpha = 1.0;
+//		double xi_a = 5.0, xi_b = 1.0;
+//		double gamma_a = 5.0, gamma_b = 1.0;
+//		double alpha_a = 5.0, alpha_b = 1.0;
+//		
+//		int maxIter = 20, burnin = 10;
+//		int initK = 5;
+//		int loglevel = 3;
+//		MultiCoporaHDPTopic multHdpTopic = new MultiCoporaHDPTopic(
+//				docCorpora
+//				, b0
+////				, xi, gamma, alpha //if sampling hyper, comment this line and uncomment following 3 lines, vice versa
+//				, xi_a, xi_b
+//				, gamma_a, gamma_b
+//				, alpha_a, alpha_b
+//				, maxIter
+//				, burnin);
+//		multHdpTopic.Initialize(initK);
+//		multHdpTopic.setLogLevel(loglevel);
+//		multHdpTopic.Sampling();
+//		CorporaTopicPostInfo topicInfo = new CorporaTopicPostInfo(
+//				docCorpora.dictionary
+//				, docCorpora.forwardHash
+//				, docCorpora.backwardHash
+//				, docCorpora.ftSequences
+//				, multHdpTopic.Z
+//				, null
+//				, null
+//				, null);
+//		int topN = 40;
+//		String msg = topicInfo.PrintTopicsKeywords(topN);
+//		for(int j = 0; j < docCorpora.corporaNumber; j++){
+//			msg += "\n corpus " + j + ": " + docCorpora.getTypeStr(j) + "---------------------------\n";
+//			msg += topicInfo.getLocalInfo(j).PrintTopicsKeywords(topN);
+//		}
+//		System.out.println(msg);
 	}
 	
 }

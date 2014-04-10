@@ -9,9 +9,6 @@
  */
 package model;
 
-import index.PrepareBankCorpora;
-import index.PrepareEmailCorpus;
-
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -776,54 +773,28 @@ public class HDPTopic{
 		return this.topicTotalTermFreq;
 	}
 	public static void main(String[] args){
-		String luceneSrc = "D:\\data_test\\shixia_email\\text\\";
-		File stopwordFile = new File("D:\\data_test\\shixia_email\\stopwords.txt");
-		
-		String queryStr = "*:*";
-
-		PrepareEmailCorpus prepareData = new PrepareEmailCorpus();
-		
-		DocCorpus docCorpus = prepareData.initializeData (luceneSrc, queryStr, false, 1, 1, stopwordFile);
-
-		String corpusInfo = docCorpus.MsgCorpusInfo();
-		
-		System.out.println(corpusInfo);
-		
-		
-		
-		double b0 = 0.5;
-		double gamma = 5, alpha = 1;
-		double gamma_a = 10, gamma_b = 1;
-		double alpha_a = 10, alpha_b = 1;
 		
 //		double b0 = 0.5;
-//		double alpha = 0.5, gamma = 2;
-//		double alpha_a = 5, alpha_b = 1;
-//		double gamma_a = 5, gamma_b = 1;
+//		double gamma = 5, alpha = 1;
+//		double gamma_a = 10, gamma_b = 1;
+//		double alpha_a = 10, alpha_b = 1;
+//		
+//		int maxIter = 1000, burnin = 10;
+//		int initK = 20;
+//		int loglevel = 3;
+//		HDPTopic hdptopic = new HDPTopic(
+//				docCorpus
+//				, b0
+////				, alpha, gamma   //if sampling hyper, comment this line and uncomment following two lines, vice versa
+//				, alpha_a, alpha_b
+//				, gamma_a, gamma_b
+//				, maxIter
+//				, burnin);
+//		hdptopic.Initialize(initK);
+//		hdptopic.setLogLevel(loglevel);
+//		hdptopic.Sampling();
 		
-		int maxIter = 1000, burnin = 10;
-		int initK = 20;
-		int loglevel = 3;
-		HDPTopic hdptopic = new HDPTopic(
-				docCorpus
-				, b0
-//				, alpha, gamma   //if sampling hyper, comment this line and uncomment following two lines, vice versa
-				, alpha_a, alpha_b
-				, gamma_a, gamma_b
-				, maxIter
-				, burnin);
-		hdptopic.Initialize(initK);
-		hdptopic.setLogLevel(loglevel);
-		hdptopic.Sampling();
-		
-//		int[] testZ = hdptopic.PredictDocTopics(testDocFtSeq);
-//		String[] testDocTokens = DocCorpus.getDocString(testDocFtSeq, docCorpus.dictionary);
-//		System.out.println("The test document's token and the assigned topic:\n");
-//		String ctStr = new String("");
-//		for(int i = 0; i < testDocTokens.length; i++){
-//			ctStr += testDocTokens[i] + "(" + testZ[i] + ");";
-//		}
-//		System.out.println(ctStr);
+
 	}
 
 }

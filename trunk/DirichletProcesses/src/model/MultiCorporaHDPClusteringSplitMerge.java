@@ -1,9 +1,5 @@
 package model;
 
-import index.PrepareBankCorpora;
-import index.PrepareBankTimeCorpora;
-import index.PrepareEmailTimeCorpora;
-import index.PrepareVisTimeCorpora;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -964,64 +960,25 @@ public class MultiCorporaHDPClusteringSplitMerge {
 	}
 	
 	public static void main(String[] args){
-//		String luceneSrc = "D:\\data_test\\shixia_email\\text\\";
-//		File stopwordFile = new File("D:\\data_test\\shixia_email\\stopwords.txt");
-//		String outputFolder = "D:\\data_test\\shixia_email\\splitmerge_output";
-//		String queryStr = "*:*";
-//		PrepareEmailTimeCorpora	prepareTimeData = new PrepareEmailTimeCorpora();
-//		DocTimeCorpora docTimeCorpora = prepareTimeData.initializeData (luceneSrc, queryStr, true, 1, 1, stopwordFile);
-////		double b0 = 0.3;
-////		double gamma = 5, alpha = 1;
 		
-//		String luceneSrc = "C:\\data_test\\cobra_bank\\text_index\\";
-//		File stopwordFile = new File("C:\\data_test\\cobra_bank\\stopwords.txt");
-//		String outputFolder = "C:\\data_test\\cobra_bank\\splitmerge_output";
-////		String luceneSrc = "C:\\data_test\\cobra_chocolate\\text_index\\";
-////		File stopwordFile = new File("C:\\data_test\\cobra_chocolate\\stopwords.txt");
-////		String outputFolder = "C:\\data_test\\cobra_chocolate\\splitmerge_output";
-////		String queryStr = "*:*";
-////			String queryStr = "queryName:AIG";
-////			String queryStr = "queryName:State Farm";
-////			String queryStr = "queryName:Bank of America";
-////			String queryStr = "queryName:AIG" + " AND docType:news";
-////		String queryStr = "queryName:citibank" + " AND docType:news";
-//		String queryStr = "queryName:StateFarm" + " AND docType:news";
-////			String queryStr = "docType:" + "blog";
-////			String queryStr = "docType:" + "news";
-////			String queryStr = "docType:" + "message_board";
-////			String queryStr = "newsgroup:" + categories[0]
-////			    + " OR " + "newsgroup:" + categories[1];
-//		PrepareBankTimeCorpora	prepareTimeData = new PrepareBankTimeCorpora();
-//		DocTimeCorpora docTimeCorpora = prepareTimeData.initializeData (luceneSrc, queryStr, true, 1, 1, stopwordFile);
-
-		String luceneSrc = "D:\\data_test\\vis\\text_index\\";
-		File stopwordFile = new File("D:\\data_test\\vis\\stopwords.txt");
-		String outputFolder = "D:\\data_test\\vis\\splitmerge_output";
-//		String queryStr = "*:*";
-		String queryStr = "confName:infovis";
-		PrepareVisTimeCorpora	prepareTimeData = new PrepareVisTimeCorpora();
-		DocTimeCorpora docTimeCorpora = prepareTimeData.initializeData (luceneSrc, queryStr, true, 1, 1, stopwordFile);
-
-		
-		
-		double b0 = 0.5;
-		double gamma = 5, alpha = 1;
-//		double gamma_a = 2, gamma_b = 1;
-//		double alpha_a = 2, alpha_b = 1;
-		
-		int maxIter = 200, burnin = 10;
-		int initK = 5;
-		int loglevel = 3;
-		MultiCorporaHDPClusteringSplitMerge hdpCluster = new MultiCorporaHDPClusteringSplitMerge(
-				docTimeCorpora
-				, b0
-//				, gamma_a, gamma_b
-//				, alpha_a, alpha_b
-				, gamma, alpha //if sampling hyper, comment this line and uncomment above 2 lines, vice versa
-				, maxIter
-				, burnin);
-		hdpCluster.setLogLevel(loglevel);
-		hdpCluster.Sampling(initK, outputFolder);
+//		double b0 = 0.5;
+//		double gamma = 5, alpha = 1;
+////		double gamma_a = 2, gamma_b = 1;
+////		double alpha_a = 2, alpha_b = 1;
+//		
+//		int maxIter = 200, burnin = 10;
+//		int initK = 5;
+//		int loglevel = 3;
+//		MultiCorporaHDPClusteringSplitMerge hdpCluster = new MultiCorporaHDPClusteringSplitMerge(
+//				docTimeCorpora
+//				, b0
+////				, gamma_a, gamma_b
+////				, alpha_a, alpha_b
+//				, gamma, alpha //if sampling hyper, comment this line and uncomment above 2 lines, vice versa
+//				, maxIter
+//				, burnin);
+//		hdpCluster.setLogLevel(loglevel);
+//		hdpCluster.Sampling(initK, outputFolder);
 		
 	}
 }
