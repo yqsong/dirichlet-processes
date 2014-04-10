@@ -21,6 +21,9 @@ import cern.colt.map.OpenIntObjectHashMap;
 import data.structure.DocCorpora;
 import description.CorporaTopicPostInfo;
 
+/**
+ * @author Jianwen Zhang
+ */
 public class MultiCoporaHDPTopic{
 	DocCorpora docCorpora;
 	

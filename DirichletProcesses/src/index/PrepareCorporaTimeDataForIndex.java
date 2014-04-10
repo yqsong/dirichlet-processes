@@ -37,6 +37,9 @@ import cern.colt.map.OpenIntIntHashMap;
 
 import data.structure.DocTimeCorpora;
 
+/**
+ * @author Yangqiu Song
+ */
 public class PrepareCorporaTimeDataForIndex {
 	
 	protected static double minDFCount = 2;

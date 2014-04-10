@@ -9,6 +9,9 @@ import cern.colt.map.OpenIntObjectHashMap;
 import data.structure.DocTimeCorpora;
 import data.structure.Keywords;
 
+/**
+ * @author Jianwen Zhang
+ */
 public class SummarySplitMergeResults {
 	
 	DocTimeCorpora docTimeCorpora;

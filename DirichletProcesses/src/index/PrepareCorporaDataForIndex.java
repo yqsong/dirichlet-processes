@@ -29,6 +29,9 @@ import cern.colt.map.OpenIntIntHashMap;
 import data.structure.DocCorpora;
 import data.structure.DocTimeCorpora;
 
+/**
+ * @author Yangqiu Song
+ */
 public class PrepareCorporaDataForIndex {
 	protected static double minDFCount = 2;
 	protected static double maxDFCount = 10000000;

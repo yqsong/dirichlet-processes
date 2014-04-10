@@ -1,4 +1,8 @@
 package model;
+
+/**
+ * @author Jianwen Zhang
+ */
 public class SumLogValueTable{
 	/**
 	 * sumLogValue[i] = \sum_{j=0}^i log(j + bias); Consequently, \sum_{j=a}^b log(j + bias) = sumLogValue[b] - sumLogValue[a-1];

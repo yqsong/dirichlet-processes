@@ -15,6 +15,9 @@ import cern.colt.map.OpenIntIntHashMap;
 import cern.colt.map.OpenIntObjectHashMap;
 import data.structure.DocTimeCorpora;
 
+/**
+ * @author Yangqiu Song
+ */
 public class MultiCorporaHDPClusteringSplitMergeWithIndex extends
 		MultiCorporaHDPClusteringSplitMerge {
 	
@@ -217,9 +220,9 @@ public class MultiCorporaHDPClusteringSplitMergeWithIndex extends
 	
 	public static void main(String[] args){
 
-		String luceneSrc = "D:\\data_test\\vis\\text_index\\";
-		File stopwordFile = new File("D:\\data_test\\vis\\stopwords.txt");
-		String outputFolder = "D:\\data_test\\vis\\splitmerge_output";
+		String luceneSrc = "data/text_index\\";
+		File stopwordFile = new File("data/stopwords.txt");
+		String outputFolder = "data/splitmerge_output";
 //		String queryStr = "*:*";
 		String queryStr = "confName:infovis";
 		PrepareCorporaTimeDataForIndex	prepareTimeData = new PrepareCorporaTimeDataForIndex();

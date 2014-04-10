@@ -2,7 +2,9 @@ package data.structure;
 
 import util.VectorOper;
 
-
+/**
+ * @author Jianwen Zhang
+ */
 public class SparseIntVector implements SparseIntVectorInterface{
 
 	int[] m_Indices;

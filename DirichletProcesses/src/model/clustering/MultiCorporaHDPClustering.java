@@ -27,6 +27,9 @@ import data.structure.DocCorpus;
 import data.structure.DocTimeCorpora;
 import description.CorporaClusteringPostInfo;
 
+/**
+ * @author Jianwen Zhang
+ */
 public class MultiCorporaHDPClustering{
 	
 	DocCorpora docCorpora;

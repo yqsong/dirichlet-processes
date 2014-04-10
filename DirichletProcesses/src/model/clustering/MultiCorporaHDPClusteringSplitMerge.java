@@ -20,6 +20,9 @@ import data.structure.DocTimeCorpora;
 import data.structure.Keywords;
 import description.CorporaClusteringPostInfo;
 
+/**
+ * @author Yangqiu Song
+ */
 public class MultiCorporaHDPClusteringSplitMerge {
 	DocTimeCorpora docTimeCorpora;
 	/**

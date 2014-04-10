@@ -10,6 +10,9 @@ import cern.colt.map.OpenIntIntHashMap;
 import cern.colt.map.OpenIntObjectHashMap;
 import data.structure.Keywords;
 
+/**
+ * @author Jianwen Zhang
+ */
 public class CorpusClusteringPostInfo{
 	Alphabet dictionary;
 	public OpenIntIntHashMap forwardHash;
