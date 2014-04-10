@@ -2,5 +2,12 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="./libs/apache/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="./libs/apache/commons-math-2.0.jar"/>
+	<classpathentry kind="lib" path="./libs/apache/lucene-core-2.4.1.jar"/>
+	<classpathentry kind="lib" path="./libs/colt/colt_fat.jar"/>
+	<classpathentry kind="lib" path="./libs/JMatIO/jamtio.jar"/>
+	<classpathentry kind="lib" path="./libs/mallet/mallet.jar"/>
+	<classpathentry kind="lib" path="./libs/mallet/mallet-deps.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
