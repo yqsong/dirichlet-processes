@@ -25,6 +25,9 @@ import data.structure.DocCorpora;
 import data.structure.DocCorpus;
 import description.CorpusTopicPostInfo;
 
+/**
+ * @author Jianwen Zhang
+ */
 public class HDPTopic{
 	
 	DocCorpus docCorpus;

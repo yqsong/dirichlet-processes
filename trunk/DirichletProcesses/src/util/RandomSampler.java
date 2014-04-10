@@ -4,6 +4,9 @@ import cern.colt.list.DoubleArrayList;
 import cern.colt.list.IntArrayList;
 import cern.colt.map.OpenIntDoubleHashMap;
 
+/**
+ * @author Jianwen Zhang
+ */
 public class RandomSampler extends cc.mallet.util.Randoms{
 
 	/**

@@ -1,7 +1,9 @@
 package data.structure;
 public interface SparseIntVectorInterface{
 	
-	
+	/**
+	 * @author Jianwen Zhang
+	 */	
 	public SparseIntVectorInterface Clone();
 	
 	/**

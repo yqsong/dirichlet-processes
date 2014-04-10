@@ -8,6 +8,9 @@ import util.VectorOper;
 import cc.mallet.types.Alphabet;
 import cern.colt.map.OpenIntIntHashMap;
 
+/**
+ * @author Jianwen Zhang
+ */
 public class DocCorpus{
 	public Alphabet dictionary;
 	public OpenIntIntHashMap forwardHash;

@@ -11,10 +11,11 @@ import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.index.IndexWriter;
 
-
+/**
+ * @author Yangqiu Song
+ */
 public class BuildVisIndex {
 
-	
 	public void BuildIndex (String filename, String indexDirStr, String typeName, boolean create) {
 		File indexFileDir = new File(indexDirStr);
 		int docNum = 0;
@@ -114,11 +115,11 @@ public class BuildVisIndex {
 	}
 	
 	public static void main(String[] args) {
-		String textInfoVis = "D:\\data_test\\visinfovis\\original data\\INFOVIS-abstract.txt";
-		String textVis =     "D:\\data_test\\visinfovis\\original data\\VIS-abstract.txt";
-		String luceneSrc = "D:\\data_test\\visinfovis\\";
+		String textInfoVis = "data/INFOVIS-abstract.txt";
+		String textVis =     "data/VIS-abstract.txt";
+		String luceneSrc = "data/visinfovis";
 		
-		String indexDirStr = luceneSrc + "\\text_index_2";
+		String indexDirStr = luceneSrc + "/text_index_2";
 		File indexFileDir = new File(indexDirStr);
 		if (indexFileDir.exists()) {
 			File[] files = indexFileDir.listFiles();

@@ -1,5 +1,8 @@
 package data.structure;
 
+/**
+ * @author Jianwen Zhang
+ */
 public class Keywords{
 
 	String[] words;

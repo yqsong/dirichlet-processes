@@ -10,6 +10,9 @@ import cern.colt.matrix.DoubleMatrix1D;
 import cern.colt.matrix.DoubleMatrix2D;
 import data.structure.SparseDoubleVectorInterface;
 
+/**
+ * @author Jianwen Zhang
+ */
 public class VectorOper{
 	public static void VectorMinusEqual(OpenIntIntHashMap v1, final OpenIntIntHashMap v2){
 		IntArrayList id2 = v2.keys();
